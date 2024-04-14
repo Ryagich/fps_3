@@ -1,0 +1,321 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Table Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Table
+  m_TableCollectionNameGuidString: 152649de737344d4fbfe83b73f551cff
+  m_Entries:
+  - m_Id: 13882413060096
+    m_Key: MyMenu/MainMenu/Panels/SinglePlayerPanel_LevelSelect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22933444268032
+    m_Key: MyMenu/MainMenu/Panels/SinglePlayerPanel_LevelSelect 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23353533173760
+    m_Key: MyMenu/MainMenu/Panels/SinglePlayerPanel_LevelSelect 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23931281772544
+    m_Key: MyMenu/MainMenu/Panels/SinglePlayerPanel_LevelSelect 3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29742473187328
+    m_Key: MyMenu/MainMenu/Panels/SinglePlayerPanel_LevelSelect 4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29772571512832
+    m_Key: MyMenu/MainMenu/Panels/SinglePlayerPanel_LevelSelect 5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30533334372352
+    m_Key: MyMenu/MainMenu/Panels/OptionsPanel_Graphics/ScrollView/Viewport/Content/MultiChoice_Resolution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66403525496832
+    m_Key: MyMenu/MainMenu/Panels/OptionsPanel_Graphics/ScrollView/Viewport/Content/MultiChoice_VSync
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66611386814464
+    m_Key: MyMenu/MainMenu/Panels/OptionsPanel_Graphics/ScrollView/Viewport/Content/MultiChoice_FrameRateCap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66788126396416
+    m_Key: MyMenu/MainMenu/Panels/OptionsPanel_Graphics/ScrollView/Viewport/Content/Slider_FieldOfView
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67528043565056
+    m_Key: MyMenu/MainMenu/Panels/OptionsPanel_Audio/ScrollView/Viewport/Content/Slider_MasterVolume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67707467501568
+    m_Key: MyMenu/MainMenu/Panels/OptionsPanel_Audio/ScrollView/Viewport/Content/Slider_EffectsVolume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67844566716416
+    m_Key: MyMenu/MainMenu/Panels/OptionsPanel_Audio/ScrollView/Viewport/Content/Slider_MusicVolume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67987399544832
+    m_Key: MyMenu/MainMenu/Panels/OptionsPanel_Gameplay/ScrollView/Viewport/Content/MultiChoice_CrosshairColor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68057431838720
+    m_Key: MyMenu/MainMenu/Panels/OptionsPanel_Gameplay/ScrollView/Viewport/Content/Toggle_AutoReload
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68891376914432
+    m_Key: MyMenu/MainMenu/Panels/OptionsPanel_Input/ScrollView/Viewport/Content/Slider_HorizontalSensitivity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69100177756160
+    m_Key: MyMenu/MainMenu/Panels/OptionsPanel_Input/ScrollView/Viewport/Content/Slider_VerticalSensitivity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69209275797504
+    m_Key: MyMenu/MainMenu/Panels/OptionsPanel_Input/ScrollView/Viewport/Content/Toggle_InvertMouse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69422312886272
+    m_Key: MyMenu/MainMenu/Panels/OptionsPanel_Input/ScrollView/Viewport/Content/Toggle_MouseAcceleration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69908743098368
+    m_Key: MyMenu/MainMenu/Panels/OptionsPanel_Input/ScrollView/Viewport/Content/Slider_MouseAccelerationAmount
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70028775690240
+    m_Key: MyMenu/MainMenu/Panels/OptionsPanel_Input/ScrollView/Viewport/Content/Toggle_MouseSmoothing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73172389761024
+    m_Key: MyMenu/MainMenu/NavControls/NavControls_Root/Button_SinglePlayer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73382151098368
+    m_Key: MyMenu/MainMenu/NavControls/NavControls_Root/Button_Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73602071040000
+    m_Key: MyMenu/MainMenu/NavControls/NavControls_Root/Button_Exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77057405784064
+    m_Key: MyMenu/MainMenu/NavControls/NavControls_Root/Button_SinglePlayer/LabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189687910928384
+    m_Key: MyMenu/MainMenu/NavControls/NavControls_Root/Button_Settings/LabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 209092543811584
+    m_Key: MyMenu/MainMenu/Panels/OptionsPanel_Graphics/ScrollView/Viewport/Content/MultiChoice_VSync/LabelLayout/LabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 209261163220992
+    m_Key: MyMenu/MainMenu/Panels/OptionsPanel_Graphics/ScrollView/Viewport/Content/MultiChoice_FrameRateCap/LabelLayout/LabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 209328825733120
+    m_Key: MyMenu/MainMenu/Panels/OptionsPanel_Graphics/ScrollView/Viewport/Content/Slider_FieldOfView/LabelLayout/LabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 209509684121600
+    m_Key: MyMenu/MainMenu/Panels/OptionsPanel_Audio/ScrollView/Viewport/Content/Slider_MasterVolume/LabelLayout/LabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 210471198953472
+    m_Key: MyMenu/MainMenu/Panels/OptionsPanel_Audio/ScrollView/Viewport/Content/Slider_EffectsVolume/LabelLayout/LabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 210558234955776
+    m_Key: MyMenu/MainMenu/Panels/OptionsPanel_Audio/ScrollView/Viewport/Content/Slider_MusicVolume/LabelLayout/LabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 210828050337792
+    m_Key: MyMenu/MainMenu/Panels/OptionsPanel_Gameplay/ScrollView/Viewport/Content/MultiChoice_CrosshairColor/LabelLayout/LabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 210993826009088
+    m_Key: MyMenu/MainMenu/Panels/OptionsPanel_Gameplay/ScrollView/Viewport/Content/MultiChoice_CrosshairColor
+      1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 211008476712960
+    m_Key: MyMenu/MainMenu/Panels/OptionsPanel_Gameplay/ScrollView/Viewport/Content/MultiChoice_CrosshairColor
+      2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 211022523437056
+    m_Key: MyMenu/MainMenu/Panels/OptionsPanel_Gameplay/ScrollView/Viewport/Content/MultiChoice_CrosshairColor
+      3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 211035274121216
+    m_Key: MyMenu/MainMenu/Panels/OptionsPanel_Gameplay/ScrollView/Viewport/Content/MultiChoice_CrosshairColor
+      4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 211284877152256
+    m_Key: MyMenu/MainMenu/Panels/OptionsPanel_Gameplay/ScrollView/Viewport/Content/MultiChoice_CrosshairColor
+      5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 211504272805888
+    m_Key: MyMenu/MainMenu/Panels/OptionsPanel_Gameplay/ScrollView/Viewport/Content/MultiChoice_CrosshairColor
+      6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 211612062224384
+    m_Key: MyMenu/MainMenu/Panels/OptionsPanel_Gameplay/ScrollView/Viewport/Content/MultiChoice_CrosshairColor
+      7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 212081371287552
+    m_Key: MyMenu/MainMenu/Panels/OptionsPanel_Gameplay/ScrollView/Viewport/Content/Toggle_AutoReload/LabelLayout/LabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 212717584289792
+    m_Key: MyMenu/MainMenu/Panels/OptionsPanel_Gameplay/ScrollView/Viewport/Content/Slider_HeadBob/LabelLayout/LabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 222084496920576
+    m_Key: MyMenu/MainMenu/Panels/OptionsPanel_Graphics/ScrollView/Viewport/Content/MultiChoice_VSync
+      1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 231689297891328
+    m_Key: MyMenu/MainMenu/Panels/OptionsPanel_Graphics/ScrollView/Viewport/Content/MultiChoice_VSync
+      2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 231760827551744
+    m_Key: MyMenu/MainMenu/Panels/OptionsPanel_Graphics/ScrollView/Viewport/Content/MultiChoice_VSync
+      3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 233832901808128
+    m_Key: MyMenu/MainMenu/Panels/OptionsPanel_Graphics/ScrollView/Viewport/Content/MultiChoice_FrameRateCap
+      1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 234327083094016
+    m_Key: MyMenu/MainMenu/NavControls/NavControls_Options/Button_Graphics/LabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 234561842483200
+    m_Key: MyMenu/MainMenu/NavControls/NavControls_Options/Button_Audio/LabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 234703513489408
+    m_Key: MyMenu/MainMenu/NavControls/NavControls_Options/Button_Gameplay/LabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 234801253355520
+    m_Key: MyMenu/MainMenu/NavControls/NavControls_Options/Button_Input/LabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 234889522483200
+    m_Key: MyMenu/MainMenu/NavControls/NavControls_Options/Button_Bindings/LabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235177297874944
+    m_Key: MyMenu/MainMenu/NavControls/NavControls_Options/Button_Back/LabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240620921458688
+    m_Key: MyMenu/MainMenu/Panels/OptionsPanel_Gameplay/ScrollView/Viewport/Content/Toggle_AutoReload
+      1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240637572845568
+    m_Key: MyMenu/MainMenu/Panels/OptionsPanel_Gameplay/ScrollView/Viewport/Content/Toggle_AutoReload
+      2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 243706129846272
+    m_Key: MyMenu/MainMenu/Panels/OptionsPanel_Input/ScrollView/Viewport/Content/Slider_HorizontalSensitivity/LabelLayout/LabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 243775553966080
+    m_Key: MyMenu/MainMenu/Panels/OptionsPanel_Input/ScrollView/Viewport/Content/Slider_VerticalSensitivity/LabelLayout/LabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 243846890688512
+    m_Key: MyMenu/MainMenu/Panels/OptionsPanel_Input/ScrollView/Viewport/Content/Toggle_InvertMouse/LabelLayout/LabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 243909096411136
+    m_Key: MyMenu/MainMenu/Panels/OptionsPanel_Input/ScrollView/Viewport/Content/Toggle_MouseAcceleration/LabelLayout/LabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 243956676595712
+    m_Key: MyMenu/MainMenu/Panels/OptionsPanel_Input/ScrollView/Viewport/Content/Slider_MouseAccelerationAmount/LabelLayout/LabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 244015635927040
+    m_Key: MyMenu/MainMenu/Panels/OptionsPanel_Input/ScrollView/Viewport/Content/Toggle_MouseSmoothing/LabelLayout/LabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 244497238495232
+    m_Key: MyMenu/MainMenu/Panels/OptionsPanel_Input/ScrollView/Viewport/Content/Slider_MouseSmoothingAmount/LabelLayout/LabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 245403795361792
+    m_Key: MyMenu/MainMenu/Panels/OptionsPanel_Bindings/ScrollView/Viewport/Content/Defaults_Group/LabelLayout/TextLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 245698382303232
+    m_Key: MyMenu/MainMenu/Panels/OptionsPanel_Bindings/ScrollView/Viewport/Content/Defaults_LayoutMultiChoice/LabelLayout/LabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 245841030582272
+    m_Key: MyMenu/MainMenu/Panels/OptionsPanel_Bindings/ScrollView/Viewport/Content/Defaults_ResetButton/LabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 245987231436800
+    m_Key: MyMenu/MainMenu/Panels/OptionsPanel_Bindings/ScrollView/Viewport/Content/Group/LabelLayout/TextLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 246621359869952
+    m_Key: MyMenu/MainMenu/Panels/OptionsPanel_Bindings/ScrollView/Viewport/Content/InputBinding/LabelLayout/CaptionText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247926799241216
+    m_Key: MyMenu/MainMenu/Panels/OptionsPanel_Bindings/ScrollView/Viewport/Content/Defaults_ResetButton/TextDescription
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288356639215616
+    m_Key: MyMenu/MainMenu/NavControls/NavControls_SinglePlayer/Button_Back/LabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288470350991360
+    m_Key: MyMenu/MainMenu/NavControls/NavControls_SinglePlayer/Button_LevelSelect/LabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292098868547584
+    m_Key: Loading/Canvas/ImageOverlay/TextLoading
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 5573356966051840024
+  references:
+    version: 2
+    RefIds:
+    - rid: 5573356966051840024
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1698682202288

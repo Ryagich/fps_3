@@ -1,0 +1,886 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Table2 Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Table2
+  m_TableCollectionNameGuidString: 9c6d50a3a409dc943827cae7d71ebbbb
+  m_Entries:
+  - m_Id: 104712649871360
+    m_Key: lvl_1/-----Environment------/Triggers/Trigger_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 104743104712704
+    m_Key: lvl_1/-----Environment------/Triggers/Trigger_1 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105169027895296
+    m_Key: lvl_1/-----Environment------/Triggers/Trigger_1 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105177936596992
+    m_Key: lvl_1/-----Environment------/Triggers/Trigger_1 3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118068689539072
+    m_Key: lvl_1/-----Environment------/Triggers/Trigger_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118471493718016
+    m_Key: lvl_1/-----Environment------/Triggers/Trigger_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118646492663808
+    m_Key: lvl_1/-----Environment------/Triggers/Trigger_3 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119030468612096
+    m_Key: lvl_1/-----Environment------/Triggers/Trigger_4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119835737231360
+    m_Key: lvl_1/-----Environment------/Triggers/Trigger_4 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 120281717575680
+    m_Key: lvl_1/-----Environment------/Triggers/Trigger_4 (1)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 120499167072256
+    m_Key: lvl_1/-----Environment------/Triggers/Trigger_4 (1) 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 120765144666112
+    m_Key: lvl_1/-----Environment------/Triggers/Trigger_4 (2)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 120958397222912
+    m_Key: lvl_1/-----Environment------/Triggers/Trigger_4 (2) 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121193257275392
+    m_Key: lvl_1/-----Environment------/Triggers/Trigger_4 (3)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121560346955776
+    m_Key: lvl_1/-----Environment------/Interactable/InteractiveKeyRingPickup_Demo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121812156190720
+    m_Key: lvl_1/-----Environment------/Interactable/InteractiveKeyRingPickup_Demo
+      1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123662838304768
+    m_Key: lvl_1/-----Environment------/Interactable/InteractiveKeyRingPickup_Demo
+      2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125434906578944
+    m_Key: lvl_1/-----Environment------/Tents/SM_Bld_Hangar_01/Door/Door_Neg_Rot/Door_Pos_Rot/Interactable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125581401034752
+    m_Key: lvl_1/-----Environment------/Tents/SM_Bld_Hangar_01/Door/Door_Neg_Rot/Door_Pos_Rot/Interactable
+      1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126758452760576
+    m_Key: lvl_1/-----Environment------/Tents/SM_Bld_Hangar_01/Door/Door_Neg_Rot/Door_Pos_Rot/Interactable
+      2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127626568830976
+    m_Key: lvl_1/-----Environment------/Tents/SM_Bld_Hangar_01/Door/Door_Neg_Rot/Door_Pos_Rot/Interactable
+      3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133907417436160
+    m_Key: lvl_1/-----Template------/HudAndMenuCanvas/HUD/Fade/DeathPopup/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 138581495287808
+    m_Key: lvl_1/-----Template------/HudAndMenuCanvas/HUD/Fade/BottomCenter/InteractionTooltip/Instructions/Instructions_Input
+    m_Metadata:
+      m_Items: []
+  - m_Id: 138779835535360
+    m_Key: lvl_1/-----Template------/HudAndMenuCanvas/HUD/Fade/BottomCenter/InteractionTooltip/Instructions/Instructions_USE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 138906545459200
+    m_Key: lvl_1/-----Template------/HudAndMenuCanvas/HUD/Fade/BottomCenter/InteractionTooltip/Instructions/Instructions_to
+    m_Metadata:
+      m_Items: []
+  - m_Id: 373388921835520
+    m_Key: MyMenu/MainMenu/Panels/SinglePlayerPanel_LevelSelect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 373632250187776
+    m_Key: MyMenu/MainMenu/Panels/SinglePlayerPanel_LevelSelect 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 373873162620928
+    m_Key: MyMenu/MainMenu/Panels/SinglePlayerPanel_LevelSelect 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 374631702499328
+    m_Key: MyMenu/MainMenu/Panels/SinglePlayerPanel_LevelSelect 3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 374742306295808
+    m_Key: MyMenu/MainMenu/Panels/SinglePlayerPanel_LevelSelect 4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 374833352052736
+    m_Key: MyMenu/MainMenu/Panels/SinglePlayerPanel_LevelSelect 5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 375483435618304
+    m_Key: MyMenu/MainMenu/Panels/OptionsPanel_Input/ScrollView/Viewport/Content/Toggle_InvertMouse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 375496601538560
+    m_Key: MyMenu/MainMenu/Panels/OptionsPanel_Input/ScrollView/Viewport/Content/Toggle_InvertMouse
+      1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 376121427005440
+    m_Key: MyMenu/MainMenu/Panels/OptionsPanel_Input/ScrollView/Viewport/Content/Toggle_MouseAcceleration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 376245284802560
+    m_Key: MyMenu/MainMenu/Panels/OptionsPanel_Input/ScrollView/Viewport/Content/Toggle_MouseAcceleration
+      1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 376451141242880
+    m_Key: MyMenu/MainMenu/Panels/OptionsPanel_Input/ScrollView/Viewport/Content/Toggle_MouseSmoothing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 376463870955520
+    m_Key: MyMenu/MainMenu/Panels/OptionsPanel_Input/ScrollView/Viewport/Content/Toggle_MouseSmoothing
+      1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 451325440331776
+    m_Key: lvl_1/-----Environment------/Interactable/WeaponPickup_Revolver_Swappable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 451736922525696
+    m_Key: lvl_1/-----Environment------/Interactable/InteractivePickup_Health (15)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 452026212061184
+    m_Key: lvl_1/-----Environment------/Interactable/InteractivePickup_ArmourBody
+      (5)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 452190922379264
+    m_Key: lvl_1/-----Environment------/Interactable/InteractivePickup_ArmourHelmet
+      (1)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 453191108694016
+    m_Key: lvl_1/-----Environment------/Interactable/MultiPickup_AmmoCrate_Quickswitch
+      (2)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 453300768772096
+    m_Key: lvl_1/-----Environment------/Interactable/WeaponPickup_Shotgun_Swappable
+      (1)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 454244722053120
+    m_Key: lvl_1/-----Environment------/Interactable/InteractivePickup_Health
+    m_Metadata:
+      m_Items: []
+  - m_Id: 454288640610304
+    m_Key: lvl_1/-----Environment------/Interactable/InteractivePickup_Health 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 454717936013312
+    m_Key: lvl_1/-----Environment------/Interactable/InteractivePickup_ArmourBody
+      (1)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 454779994935296
+    m_Key: InteractivePickup_ArmourBody
+    m_Metadata:
+      m_Items: []
+  - m_Id: 454780015906816
+    m_Key: lvl_1/-----Environment------/Interactable/InteractivePickup_ArmourBody
+      (1) 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 455125324566528
+    m_Key: InteractivePickup_ArmourBody/InteractivePickup_ArmourBody
+    m_Metadata:
+      m_Items: []
+  - m_Id: 455486173122560
+    m_Key: InteractivePickup_ArmourHelmet/InteractivePickup_ArmourHelmet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 455645686697984
+    m_Key: InventoryDrop_Rucksack/InventoryDrop_Rucksack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 455755522936832
+    m_Key: InventoryDrop_Rucksack/InventoryDrop_Rucksack 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456077226053632
+    m_Key: InteractivePickup_ArmourBody/InteractivePickup_ArmourBody 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456625790685184
+    m_Key: MultiPickup_AmmoCrate_Quickswitch/MultiPickup_AmmoCrate_Quickswitch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456917760380928
+    m_Key: WeaponPickup_AssaultRifle_Quickswitch/WeaponPickup_AssaultRifle_Quickswitch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456947737071616
+    m_Key: WeaponPickup_AssaultRifle_Quickswitch/WeaponPickup_AssaultRifle_Quickswitch
+      1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 457089525518336
+    m_Key: WeaponPickup_Pistol_Quickswitch/WeaponPickup_Pistol_Quickswitch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 457117325365248
+    m_Key: WeaponPickup_Pistol_Quickswitch/WeaponPickup_Pistol_Quickswitch 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 459780330917888
+    m_Key: WeaponPickup_Revolver_Quickswitch/WeaponPickup_Revolver_Quickswitch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 459915156819968
+    m_Key: WeaponPickup_Revolver_Quickswitch/WeaponPickup_Revolver_Quickswitch 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 463640025927680
+    m_Key: WeaponPickup_Shotgun_Quickswitch/WeaponPickup_Shotgun_Quickswitch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 463669339918336
+    m_Key: WeaponPickup_Shotgun_Quickswitch/WeaponPickup_Shotgun_Quickswitch 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 463824554332160
+    m_Key: WeaponPickup_SniperRifle_Quickswitch/WeaponPickup_SniperRifle_Quickswitch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 464055626928128
+    m_Key: WeaponPickup_SniperRifle_Quickswitch/WeaponPickup_SniperRifle_Quickswitch
+      1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 464274108223488
+    m_Key: WeaponPickup_HandGrenade_Quickswitch/WeaponPickup_HandGrenade_Quickswitch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 464299739615232
+    m_Key: WeaponPickup_HandGrenade_Quickswitch/WeaponPickup_HandGrenade_Quickswitch
+      1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 466016518574080
+    m_Key: Tent/Tent/Door_1_T/Door_Handle/Interactable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 466225264889856
+    m_Key: Tent/Tent/Door_1_T/Door_Handle/Interactable 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 466261981827072
+    m_Key: Tent/Tent/Door_1_T (1)/Door_Handle/Interactable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 466303543185408
+    m_Key: Tent/Tent/Door_1_T (1)/Door_Handle/Interactable 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 466484154109952
+    m_Key: lvl_1/-----Environment------/Tents/Tent/Door_1_T (1)/Door_Handle/Interactable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 466543386071040
+    m_Key: lvl_1/-----Environment------/Tents/Tent/Door_1_T (1)/Door_Handle/Interactable
+      1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 466663733235712
+    m_Key: lvl_1/-----Environment------/Tents/SM_Bld_Hangar_01/Door/Door_Neg_Rot/Door_Pos_Rot/Interactable
+      4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 466674567122944
+    m_Key: lvl_1/-----Environment------/Tents/SM_Bld_Hangar_01/Door/Door_Neg_Rot/Door_Pos_Rot/Interactable
+      5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 469741412847616
+    m_Key: lvl_1/-----Environment------/Prop_InfoLaptop/Interactable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 469770038972416
+    m_Key: lvl_1/-----Environment------/Prop_InfoLaptop/Interactable 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 472681502511104
+    m_Key: lvl_1/-----Environment------/Prop_InfoLaptop/Interactable 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 472882971709440
+    m_Key: lvl_1/-----Environment------/Prop_InfoLaptop/Interactable 3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 473059954561024
+    m_Key: lvl_1/-----Environment------/Prop_InfoLaptop/Interactable 4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 481638585503744
+    m_Key: lvl_1/-----Environment------/Prop_InfoLaptop/Interactable 5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 481680331411456
+    m_Key: lvl_1/-----Environment------/Prop_InfoLaptop/Interactable 6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 481716402425856
+    m_Key: lvl_1/-----Environment------/Prop_InfoLaptop/Interactable 7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 482065867640832
+    m_Key: HUD/Canvas (Environment)/HUD/Fade/DeathPopup/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 482577476259840
+    m_Key: HUD/Canvas (Environment)/HUD/Fade/BottomLeft/SlowMoChargeMeter/Label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 484888034447360
+    m_Key: HUD/Canvas (Environment)/HUD/Fade/BottomLeft/OxygenMeter/Label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 484954635800576
+    m_Key: HUD/Canvas (Environment)/HUD/Fade/BottomLeft/StaminaBar/Label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 485044217745408
+    m_Key: HUD/Canvas (Environment)/HUD/Fade/BottomLeft/InventoryItemCounter_HelmetArmour/Contents/TextName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 485214749757440
+    m_Key: HUD/Canvas (Environment)/HUD/Fade/BottomLeft/InventoryItemCounter_BodyArmour/Contents/TextName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 486386751541248
+    m_Key: HUD/Canvas (Environment)/HUD/Fade/BottomLeft/ShieldMeter/Label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488304517353472
+    m_Key: lvl_1/-----Template------/HudAndMenuCanvas/InGameMenu/NavControls/NavControls_Root/Button_Settings/LabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488585418280960
+    m_Key: lvl_1/-----Template------/HudAndMenuCanvas/InGameMenu/NavControls/NavControls_Root/Button_Exit/LabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488866801553408
+    m_Key: lvl_1/-----Template------/HudAndMenuCanvas/InGameMenu/NavControls/NavControls_Root/Button_Back/LabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 489371313410048
+    m_Key: lvl_1/-----Template------/HudAndMenuCanvas/InGameMenu/NavControls/NavControls_Options/Button_Graphics/LabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 489450279571456
+    m_Key: lvl_1/-----Template------/HudAndMenuCanvas/InGameMenu/NavControls/NavControls_Options/Button_Audio/LabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 489586841915392
+    m_Key: lvl_1/-----Template------/HudAndMenuCanvas/InGameMenu/NavControls/NavControls_Options/Button_Gameplay/LabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 489839787806720
+    m_Key: lvl_1/-----Template------/HudAndMenuCanvas/InGameMenu/NavControls/NavControls_Options/Button_Input/LabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 490006297481216
+    m_Key: lvl_1/-----Template------/HudAndMenuCanvas/InGameMenu/NavControls/NavControls_Options/Button_Bindings/LabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 490077353185280
+    m_Key: lvl_1/-----Template------/HudAndMenuCanvas/InGameMenu/NavControls/NavControls_Options/Button_Back/LabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 491778172817408
+    m_Key: lvl_1/-----Template------/HudAndMenuCanvas/InGameMenu/Panels/OptionsPanel_Graphics/ScrollView/Viewport/Content/MultiChoice_VSync/LabelLayout/LabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 491973849681920
+    m_Key: lvl_1/-----Template------/HudAndMenuCanvas/InGameMenu/Panels/OptionsPanel_Graphics/ScrollView/Viewport/Content/MultiChoice_VSync
+    m_Metadata:
+      m_Items: []
+  - m_Id: 492015864025088
+    m_Key: lvl_1/-----Template------/HudAndMenuCanvas/InGameMenu/Panels/OptionsPanel_Graphics/ScrollView/Viewport/Content/MultiChoice_VSync
+      1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 492449513115648
+    m_Key: lvl_1/-----Template------/HudAndMenuCanvas/InGameMenu/Panels/OptionsPanel_Graphics/ScrollView/Viewport/Content/MultiChoice_VSync
+      2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 493133620875264
+    m_Key: lvl_1/-----Template------/HudAndMenuCanvas/InGameMenu/Panels/OptionsPanel_Graphics/ScrollView/Viewport/Content/MultiChoice_FrameRateCap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 493203439259648
+    m_Key: lvl_1/-----Template------/HudAndMenuCanvas/InGameMenu/Panels/OptionsPanel_Graphics/ScrollView/Viewport/Content/Slider_FieldOfView/LabelLayout/LabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 494693558030336
+    m_Key: lvl_1/-----Template------/HudAndMenuCanvas/InGameMenu/Panels/OptionsPanel_Audio/ScrollView/Viewport/Content/Slider_MasterVolume/LabelLayout/LabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 499777733955584
+    m_Key: lvl_1/-----Template------/HudAndMenuCanvas/InGameMenu/Panels/OptionsPanel_Audio/ScrollView/Viewport/Content/Slider_EffectsVolume/LabelLayout/LabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 499896218849280
+    m_Key: lvl_1/-----Template------/HudAndMenuCanvas/InGameMenu/Panels/OptionsPanel_Audio/ScrollView/Viewport/Content/Slider_MusicVolume/LabelLayout/LabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 500250603982848
+    m_Key: lvl_1/-----Template------/HudAndMenuCanvas/InGameMenu/Panels/OptionsPanel_Gameplay/ScrollView/Viewport/Content/MultiChoice_CrosshairColor/LabelLayout/LabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 500365615992832
+    m_Key: lvl_1/-----Template------/HudAndMenuCanvas/InGameMenu/Panels/OptionsPanel_Gameplay/ScrollView/Viewport/Content/MultiChoice_CrosshairColor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 500384112873472
+    m_Key: lvl_1/-----Template------/HudAndMenuCanvas/InGameMenu/Panels/OptionsPanel_Gameplay/ScrollView/Viewport/Content/MultiChoice_CrosshairColor
+      1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 500400667791360
+    m_Key: lvl_1/-----Template------/HudAndMenuCanvas/InGameMenu/Panels/OptionsPanel_Gameplay/ScrollView/Viewport/Content/MultiChoice_CrosshairColor
+      2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 500414026649600
+    m_Key: lvl_1/-----Template------/HudAndMenuCanvas/InGameMenu/Panels/OptionsPanel_Gameplay/ScrollView/Viewport/Content/MultiChoice_CrosshairColor
+      3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 500427410673664
+    m_Key: lvl_1/-----Template------/HudAndMenuCanvas/InGameMenu/Panels/OptionsPanel_Gameplay/ScrollView/Viewport/Content/MultiChoice_CrosshairColor
+      4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 500443353223168
+    m_Key: lvl_1/-----Template------/HudAndMenuCanvas/InGameMenu/Panels/OptionsPanel_Gameplay/ScrollView/Viewport/Content/MultiChoice_CrosshairColor
+      5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 500458066841600
+    m_Key: lvl_1/-----Template------/HudAndMenuCanvas/InGameMenu/Panels/OptionsPanel_Gameplay/ScrollView/Viewport/Content/MultiChoice_CrosshairColor
+      6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 500648794427392
+    m_Key: lvl_1/-----Template------/HudAndMenuCanvas/InGameMenu/Panels/OptionsPanel_Gameplay/ScrollView/Viewport/Content/Toggle_AutoReload/LabelLayout/LabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 500891392970752
+    m_Key: lvl_1/-----Template------/HudAndMenuCanvas/InGameMenu/Panels/OptionsPanel_Gameplay/ScrollView/Viewport/Content/Toggle_AutoReload
+    m_Metadata:
+      m_Items: []
+  - m_Id: 500909248122880
+    m_Key: lvl_1/-----Template------/HudAndMenuCanvas/InGameMenu/Panels/OptionsPanel_Gameplay/ScrollView/Viewport/Content/Toggle_AutoReload
+      1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 501069982240768
+    m_Key: lvl_1/-----Template------/HudAndMenuCanvas/InGameMenu/Panels/OptionsPanel_Gameplay/ScrollView/Viewport/Content/Slider_HeadBob/LabelLayout/LabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 501779234852864
+    m_Key: lvl_1/-----Template------/HudAndMenuCanvas/InGameMenu/Panels/OptionsPanel_Input/ScrollView/Viewport/Content/Slider_HorizontalSensitivity/LabelLayout/LabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 501865222279168
+    m_Key: lvl_1/-----Template------/HudAndMenuCanvas/InGameMenu/Panels/OptionsPanel_Input/ScrollView/Viewport/Content/Slider_VerticalSensitivity/LabelLayout/LabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 502019321008128
+    m_Key: lvl_1/-----Template------/HudAndMenuCanvas/InGameMenu/Panels/OptionsPanel_Input/ScrollView/Viewport/Content/Toggle_InvertMouse/LabelLayout/LabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 502159951826944
+    m_Key: lvl_1/-----Template------/HudAndMenuCanvas/InGameMenu/Panels/OptionsPanel_Input/ScrollView/Viewport/Content/Toggle_InvertMouse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 502172048199680
+    m_Key: lvl_1/-----Template------/HudAndMenuCanvas/InGameMenu/Panels/OptionsPanel_Input/ScrollView/Viewport/Content/Toggle_InvertMouse
+      1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 502349492424704
+    m_Key: lvl_1/-----Template------/HudAndMenuCanvas/InGameMenu/Panels/OptionsPanel_Input/ScrollView/Viewport/Content/Toggle_MouseAcceleration/LabelLayout/LabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 502502626463744
+    m_Key: lvl_1/-----Template------/HudAndMenuCanvas/InGameMenu/Panels/OptionsPanel_Input/ScrollView/Viewport/Content/Toggle_MouseAcceleration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 502523044335616
+    m_Key: lvl_1/-----Template------/HudAndMenuCanvas/InGameMenu/Panels/OptionsPanel_Input/ScrollView/Viewport/Content/Toggle_MouseAcceleration
+      1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 502656653889536
+    m_Key: lvl_1/-----Template------/HudAndMenuCanvas/InGameMenu/Panels/OptionsPanel_Input/ScrollView/Viewport/Content/Slider_MouseAccelerationAmount/LabelLayout/LabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 503553903595520
+    m_Key: lvl_1/-----Template------/HudAndMenuCanvas/InGameMenu/Panels/OptionsPanel_Input/ScrollView/Viewport/Content/Toggle_MouseSmoothing/LabelLayout/LabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 503701719257088
+    m_Key: lvl_1/-----Template------/HudAndMenuCanvas/InGameMenu/Panels/OptionsPanel_Input/ScrollView/Viewport/Content/Toggle_MouseSmoothing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 503726528565248
+    m_Key: lvl_1/-----Template------/HudAndMenuCanvas/InGameMenu/Panels/OptionsPanel_Input/ScrollView/Viewport/Content/Toggle_MouseSmoothing
+      1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 503773613821952
+    m_Key: lvl_1/-----Template------/HudAndMenuCanvas/InGameMenu/Panels/OptionsPanel_Input/ScrollView/Viewport/Content/Slider_MouseSmoothingAmount/LabelLayout/LabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504163478573056
+    m_Key: lvl_1/-----Template------/HudAndMenuCanvas/InGameMenu/Panels/OptionsPanel_Bindings/ScrollView/Viewport/Content/Defaults_Group/LabelLayout/TextLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 505067879567360
+    m_Key: lvl_2/-----Template------/ScreenDark
+    m_Metadata:
+      m_Items: []
+  - m_Id: 508729964138496
+    m_Key: HUD/Canvas (Environment)/HUD/Fade/BottomLeft/StaminaBar/Label 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 524579089715200
+    m_Key: lvl_2/-----Environment------/Triggers/Trigger_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 524709020864512
+    m_Key: lvl_2/-----Environment------/Triggers/Trigger_1 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 524868916121600
+    m_Key: lvl_2/-----Environment------/Triggers/Trigger_1 (1)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 525072725741568
+    m_Key: lvl_2/-----Environment------/Triggers/Trigger_1 (2)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 525467653017600
+    m_Key: lvl_2/-----Environment------/Triggers/Trigger_1 (3)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 525589497548800
+    m_Key: lvl_2/-----Environment------/Triggers/Trigger_1 (3) 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 525725581742080
+    m_Key: lvl_2/-----Environment------/Triggers/Trigger_1 (4)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 525900639408128
+    m_Key: lvl_2/-----Environment------/Triggers/Trigger_1 (4) 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 526224523563008
+    m_Key: lvl_2/-----Environment------/Triggers/Trigger_1 (5)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 526678171095040
+    m_Key: 'lvl_2/-----Environment------/Laptops/Quest_Laptop '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 526870597373952
+    m_Key: lvl_2/-----Environment------/Laptops/Quest_Laptop  1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 526992634843136
+    m_Key: lvl_2/-----Environment------/Laptops/Quest_Laptop /Interactable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 527027074273280
+    m_Key: lvl_2/-----Environment------/Laptops/Quest_Laptop /Interactable 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 528257339133952
+    m_Key: lvl_2/-----Environment------/Laptops/Quest_Laptop /Interactable 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 531595355000832
+    m_Key: lvl_2/-----Environment------/Laptops/Quest_Laptop /Interactable 3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 532728072933376
+    m_Key: lvl_3/BossDeathReaction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 532921342267392
+    m_Key: lvl_3/BossDeathReaction 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 533283272953856
+    m_Key: lvl_3/-----Environment------/Triggers/Trigger_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 533422662258688
+    m_Key: lvl_3/-----Environment------/Triggers/Trigger_1 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 533581664129024
+    m_Key: lvl_3/-----Environment------/Triggers/Trigger_1 (1)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 533640950616064
+    m_Key: lvl_3/-----Environment------/Triggers/Trigger_1 (1) 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 534071781134336
+    m_Key: lvl_3/-----Environment------/Triggers/Trigger_1 (2)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 534290308567040
+    m_Key: lvl_3/-----Environment------/Triggers/Trigger_1 (2) 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 534533855023104
+    m_Key: lvl_3/-----Environment------/Triggers/Trigger_1 (2) 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 534582836105216
+    m_Key: lvl_3/-----Environment------/Triggers/Trigger_1 (2) 3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 534605191745536
+    m_Key: lvl_3/-----Environment------/Triggers/Trigger_1 (2) 4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 538756860645376
+    m_Key: lvl_1/-----Environment------/Interactable/Laptop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 538816067440640
+    m_Key: lvl_1/-----Environment------/Interactable/Laptop 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 539243160834048
+    m_Key: lvl_1/-----Environment------/Prop_InfoLaptop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 539315223171072
+    m_Key: lvl_1/-----Environment------/Prop_InfoLaptop 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 539610586058752
+    m_Key: lvl_1/-----Environment------/Laptop/Interactable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 539627833036800
+    m_Key: lvl_1/-----Environment------/Laptop/Interactable 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 570505879654400
+    m_Key: lvl_2/-----Environment------/Laptops/Laptop (1)/Interactable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 570505946763264
+    m_Key: lvl_2/-----Environment------/Laptops/Laptop (4)/Interactable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 570505976123392
+    m_Key: lvl_2/-----Environment------/Laptops/Laptop (2)/Interactable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 570506005483520
+    m_Key: lvl_2/-----Environment------/Laptops/Laptop (3)/Interactable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 570506030649344
+    m_Key: lvl_2/-----Environment------/Laptops/Laptop/Interactable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 570506060009472
+    m_Key: lvl_2/-----Environment------/Laptops/Laptop (6)/Interactable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 570537693450240
+    m_Key: lvl_2/-----Environment------/Laptops/Laptop (1)/Interactable 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 570537718616064
+    m_Key: lvl_2/-----Environment------/Laptops/Laptop (4)/Interactable 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 570537777336320
+    m_Key: lvl_2/-----Environment------/Laptops/Laptop (2)/Interactable 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 570537840250880
+    m_Key: lvl_2/-----Environment------/Laptops/Laptop (3)/Interactable 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 570537869611008
+    m_Key: lvl_2/-----Environment------/Laptops/Laptop/Interactable 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 570537928331264
+    m_Key: lvl_2/-----Environment------/Laptops/Laptop (6)/Interactable 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 571610835488768
+    m_Key: lvl_2/-----Environment------/Laptops/Laptop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 572760146087936
+    m_Key: lvl_2/-----Environment------/Laptops/Laptop 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 574682726961152
+    m_Key: lvl_2/-----Environment------/Laptops/Laptop (1)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 574707150393344
+    m_Key: lvl_2/-----Environment------/Laptops/Laptop (1) 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 596578545733632
+    m_Key: lvl_1/-----Template------/HudAndMenuCanvas/InGameMenu/Popups/ConfirmationPopup/ButtonYes/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 596801623986176
+    m_Key: lvl_1/-----Template------/HudAndMenuCanvas/InGameMenu/Popups/ConfirmationPopup/ButtonNo/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 640218479497216
+    m_Key: lvl_1/-----Template------/HudAndMenuCanvas/InGameMenu/Panels/OptionsPanel_Bindings/ScrollView/Viewport/Content/Defaults_ResetButton/LabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 640271847821312
+    m_Key: lvl_1/-----Template------/HudAndMenuCanvas/InGameMenu/Panels/OptionsPanel_Bindings/ScrollView/Viewport/Content/Defaults_ResetButton/TextDescription
+    m_Metadata:
+      m_Items: []
+  - m_Id: 640887026388992
+    m_Key: lvl_1/-----Template------/HudAndMenuCanvas/InGameMenu/Panels/OptionsPanel_Bindings/ScrollView/Viewport/Content/Defaults_LayoutMultiChoice/LabelLayout/LabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 641402082725888
+    m_Key: lvl_2/-----Template------/HudAndMenuCanvas/InGameMenu/Panels/OptionsPanel_Bindings/ScrollView/Viewport/Content/Defaults_LayoutMultiChoice/LabelLayout/LabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 641472253431808
+    m_Key: lvl_2/-----Template------/HudAndMenuCanvas/InGameMenu/Panels/OptionsPanel_Bindings/ScrollView/Viewport/Content/Defaults_ResetButton/LabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 641484437884928
+    m_Key: lvl_2/-----Template------/HudAndMenuCanvas/InGameMenu/Panels/OptionsPanel_Bindings/ScrollView/Viewport/Content/Defaults_ResetButton/TextDescription
+    m_Metadata:
+      m_Items: []
+  - m_Id: 642521198530560
+    m_Key: lvl_3/-----Template------/HudAndMenuCanvas/InGameMenu/Panels/OptionsPanel_Bindings/ScrollView/Viewport/Content/Defaults_LayoutMultiChoice/LabelLayout/LabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 642658100613120
+    m_Key: lvl_3/-----Template------/HudAndMenuCanvas/InGameMenu/Panels/OptionsPanel_Bindings/ScrollView/Viewport/Content/Defaults_ResetButton/LabelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 642674051551232
+    m_Key: lvl_3/-----Template------/HudAndMenuCanvas/InGameMenu/Panels/OptionsPanel_Bindings/ScrollView/Viewport/Content/Defaults_ResetButton/TextDescription
+    m_Metadata:
+      m_Items: []
+  - m_Id: 668493817876480
+    m_Key: lvl_1/-----Environment------/Triggers/Trigger_4 (3) 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 668782268551168
+    m_Key: lvl_1/-----Environment------/Interactable/InteractiveKeyRingPickup_Demo
+      3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 669150134177792
+    m_Key: lvl_1/-----Environment------/Interactable/InteractiveKeyRingPickup_Demo
+      4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1962375868354560
+    m_Key: lvl_1/-----Template------/HudAndMenuCanvas/HUD/Fade/BottomCenter/InteractionTooltip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1962387998281728
+    m_Key: lvl_1/-----Template------/HudAndMenuCanvas/HUD/Fade/BottomCenter/InteractionTooltip
+      1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1963495403589632
+    m_Key: lvl_1/-----Template------/HudAndMenuCanvas/HUD/Fade/BottomCenter/InteractionTooltip
+      2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1992591974109184
+    m_Key: lvl_1/-----Template------/HudAndMenuCanvas/HUD/Fade/BottomCenter/InteractionTooltip
+      3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2312931522678784
+    m_Key: HUD/Canvas (Environment)/HUD/Fade/BottomCenter/InteractionTooltip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2320790016790528
+    m_Key: lvl_2/-----Environment------/Triggers/Trigger_1 (2) 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2337717619560448
+    m_Key: WeaponPickup_Shotgun_Swappable/WeaponPickup_Shotgun_Swappable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7257670990729216
+    m_Key: lvl_1/-----Environment------/Tents/SM_Bld_Hangar_01/Door/Door_Neg_Rot/Door_Pos_Rot/Interactable
+      6
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 5573356978065637378
+  references:
+    version: 2
+    RefIds:
+    - rid: 5573356978065637378
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1698731504440

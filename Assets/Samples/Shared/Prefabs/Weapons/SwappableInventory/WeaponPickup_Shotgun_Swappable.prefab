@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5235120331175462375
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1651731687865070, guid: 710655323c5501145b640386c3cacd78, type: 3}
+      propertyPath: m_Name
+      value: WeaponPickup_Shotgun_Swappable
+      objectReference: {fileID: 0}
+    - target: {fileID: 4968529916689684, guid: 710655323c5501145b640386c3cacd78, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4968529916689684, guid: 710655323c5501145b640386c3cacd78, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -112.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 4968529916689684, guid: 710655323c5501145b640386c3cacd78, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.104
+      objectReference: {fileID: 0}
+    - target: {fileID: 4968529916689684, guid: 710655323c5501145b640386c3cacd78, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.008
+      objectReference: {fileID: 0}
+    - target: {fileID: 4968529916689684, guid: 710655323c5501145b640386c3cacd78, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.45817852
+      objectReference: {fileID: 0}
+    - target: {fileID: 4968529916689684, guid: 710655323c5501145b640386c3cacd78, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.60708773
+      objectReference: {fileID: 0}
+    - target: {fileID: 4968529916689684, guid: 710655323c5501145b640386c3cacd78, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.5315398
+      objectReference: {fileID: 0}
+    - target: {fileID: 4968529916689684, guid: 710655323c5501145b640386c3cacd78, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.37280345
+      objectReference: {fileID: 0}
+    - target: {fileID: 4968529916689684, guid: 710655323c5501145b640386c3cacd78, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -107.706
+      objectReference: {fileID: 0}
+    - target: {fileID: 4968529916689684, guid: 710655323c5501145b640386c3cacd78, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -6.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4968529916689684, guid: 710655323c5501145b640386c3cacd78, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 87.159
+      objectReference: {fileID: 0}
+    - target: {fileID: 114733798379534456, guid: 710655323c5501145b640386c3cacd78, type: 3}
+      propertyPath: prefabGuid
+      value: 8d59da205a81a6143b586c47283db9fd
+      objectReference: {fileID: 0}
+    - target: {fileID: 114733798379534456, guid: 710655323c5501145b640386c3cacd78, type: 3}
+      propertyPath: m_PrefabStrongID
+      value: -401850831
+      objectReference: {fileID: 0}
+    - target: {fileID: 114791637689906260, guid: 710655323c5501145b640386c3cacd78, type: 3}
+      propertyPath: m_Item
+      value: 
+      objectReference: {fileID: 114086477076219018, guid: b5a388a41b64b014b91dc96dfbfd0c6e, type: 3}
+    - target: {fileID: 114791637689906260, guid: 710655323c5501145b640386c3cacd78, type: 3}
+      propertyPath: m_TooltipAction
+      value: to pick up
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2129832233852939260, guid: 710655323c5501145b640386c3cacd78, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1651731687865070, guid: 710655323c5501145b640386c3cacd78, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2060757605260064641}
+  m_SourcePrefab: {fileID: 100100000, guid: 710655323c5501145b640386c3cacd78, type: 3}
+--- !u!1 &5234093203713916681 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1651731687865070, guid: 710655323c5501145b640386c3cacd78, type: 3}
+  m_PrefabInstance: {fileID: 5235120331175462375}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2060757605260064641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5234093203713916681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69beb381e244f92449b8c4cf954630e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TrackedObjects:
+  - rid: 7983611253976727562
+  references:
+    version: 2
+    RefIds:
+    - rid: 7983611253976727562
+      type: {class: TrackedMonoBehaviourObject, ns: UnityEngine.Localization.PropertyVariants.TrackedObjects, asm: Unity.Localization}
+      data:
+        m_Target: {fileID: 5274049787565617587}
+        m_TrackedProperties:
+          items:
+          - rid: 7983611253976727563
+        m_UpdateType: 0
+        m_Changed:
+          m_PersistentCalls:
+            m_Calls: []
+    - rid: 7983611253976727563
+      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
+      data:
+        m_Localized:
+          m_TableReference:
+            m_TableCollectionName: GUID:9c6d50a3a409dc943827cae7d71ebbbb
+          m_TableEntryReference:
+            m_KeyId: 2337717619560448
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+        m_PropertyPath: m_TooltipAction
+--- !u!114 &5274049787565617587 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114791637689906260, guid: 710655323c5501145b640386c3cacd78, type: 3}
+  m_PrefabInstance: {fileID: 5235120331175462375}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5234093203713916681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be431f23d046cc34ab70572921114d1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

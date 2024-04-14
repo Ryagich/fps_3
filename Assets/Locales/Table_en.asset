@@ -1,0 +1,314 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Table_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 152649de737344d4fbfe83b73f551cff, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 5573356970983555077
+  m_TableData:
+  - m_Id: 13882413060096
+    m_Localized: "\u0421hase"
+    m_Metadata:
+      m_Items:
+      - rid: 5573356970983555077
+  - m_Id: 22933444268032
+    m_Localized: The reconnaissance team intercepted information that a column carrying
+      unknown weaponry is en route to one of Alkuda's camps. Our task is to intercept
+      the column and identify the transported armaments
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23353533173760
+    m_Localized: Search
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23931281772544
+    m_Localized: Thanks to the information obtained from the last mission, we managed
+      to track the whereabouts of the Alkuda leader. It's time to deal with him.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29742473187328
+    m_Localized: Rat hole
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29772571512832
+    m_Localized: You can't hide forever. All the trails lead to one place. A remote
+      camp among the mountains, the last refuge of the Alkuda leader. There's nowhere
+      left to run.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30533334372352
+    m_Localized: Resolution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66403525496832
+    m_Localized: VSync
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66611386814464
+    m_Localized: Frame-Rate Cap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66788126396416
+    m_Localized: Horizontal FoV
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67528043565056
+    m_Localized: Master Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67707467501568
+    m_Localized: Effects Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67844566716416
+    m_Localized: Music Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67987399544832
+    m_Localized: Crosshair Colour
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68057431838720
+    m_Localized: Auto Reload
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68891376914432
+    m_Localized: Horizontal Sensitivity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69100177756160
+    m_Localized: Vertical Sensitivity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69209275797504
+    m_Localized: Invert Mouse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69422312886272
+    m_Localized: Mouse Acceleration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69908743098368
+    m_Localized: Mouse Acceleration Amount
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70028775690240
+    m_Localized: Mouse Smoothing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73172389761024
+    m_Localized: Single Player
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73382151098368
+    m_Localized: Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73602071040000
+    m_Localized: Exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77057405784064
+    m_Localized: Single Player
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189687910928384
+    m_Localized: Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 209092543811584
+    m_Localized: VSync
+    m_Metadata:
+      m_Items: []
+  - m_Id: 209261163220992
+    m_Localized: Frame-Rate Cap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 209328825733120
+    m_Localized: Horizontal FoV
+    m_Metadata:
+      m_Items: []
+  - m_Id: 209509684121600
+    m_Localized: Master Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 210471198953472
+    m_Localized: Effects Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 210558234955776
+    m_Localized: Music Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 210828050337792
+    m_Localized: Crosshair Colour
+    m_Metadata:
+      m_Items: []
+  - m_Id: 210993826009088
+    m_Localized: White
+    m_Metadata:
+      m_Items: []
+  - m_Id: 211008476712960
+    m_Localized: Green
+    m_Metadata:
+      m_Items: []
+  - m_Id: 211022523437056
+    m_Localized: Red
+    m_Metadata:
+      m_Items: []
+  - m_Id: 211035274121216
+    m_Localized: Blue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 211284877152256
+    m_Localized: Cyan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 211504272805888
+    m_Localized: Magenta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 211612062224384
+    m_Localized: Yellow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 212081371287552
+    m_Localized: Auto Reload
+    m_Metadata:
+      m_Items: []
+  - m_Id: 212717584289792
+    m_Localized: Head Bob
+    m_Metadata:
+      m_Items: []
+  - m_Id: 222084496920576
+    m_Localized: Disabled
+    m_Metadata:
+      m_Items: []
+  - m_Id: 231689297891328
+    m_Localized: Every VBlank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 231760827551744
+    m_Localized: Every 2nd VBlank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 233832901808128
+    m_Localized: Uncapped
+    m_Metadata:
+      m_Items: []
+  - m_Id: 234327083094016
+    m_Localized: Graphics
+    m_Metadata:
+      m_Items: []
+  - m_Id: 234561842483200
+    m_Localized: Audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 234703513489408
+    m_Localized: Gameplay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 234801253355520
+    m_Localized: Input
+    m_Metadata:
+      m_Items: []
+  - m_Id: 234889522483200
+    m_Localized: Input Bindings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235177297874944
+    m_Localized: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240620921458688
+    m_Localized: No
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240637572845568
+    m_Localized: Yes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 243706129846272
+    m_Localized: Horizontal Sensitivity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 243775553966080
+    m_Localized: Vertical Sensitivity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 243846890688512
+    m_Localized: Invert Mouse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 243909096411136
+    m_Localized: Mouse Acceleration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 243956676595712
+    m_Localized: Mouse Acceleration Amount
+    m_Metadata:
+      m_Items: []
+  - m_Id: 244015635927040
+    m_Localized: Mouse Smoothing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 244497238495232
+    m_Localized: Mouse Smoothing Amount
+    m_Metadata:
+      m_Items: []
+  - m_Id: 245403795361792
+    m_Localized: Reset To Defaults
+    m_Metadata:
+      m_Items: []
+  - m_Id: 245698382303232
+    m_Localized: Keyboard Layout
+    m_Metadata:
+      m_Items: []
+  - m_Id: 245841030582272
+    m_Localized: Apply Keyboard Defaults
+    m_Metadata:
+      m_Items: []
+  - m_Id: 245987231436800
+    m_Localized: Movement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 246621359869952
+    m_Localized: Forward
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247926799241216
+    m_Localized: This will reset the keys based on the selected keyboard layout
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288356639215616
+    m_Localized: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288470350991360
+    m_Localized: Missions
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292098868547584
+    m_Localized: LOADING
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 5573356970983555077
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 00904c40a00c0000

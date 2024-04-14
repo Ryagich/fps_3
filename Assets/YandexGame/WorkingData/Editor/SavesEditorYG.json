@@ -1,0 +1,28 @@
+{
+    "idSave": 17,
+    "isFirstSession": false,
+    "language": "ru",
+    "promptDone": false,
+    "openLevels": [
+        true,
+        false,
+        false
+    ],
+    "x": [
+        -87.43647766113281,
+        0.0,
+        0.0
+    ],
+    "y": [
+        6.737999439239502,
+        0.0,
+        0.0
+    ],
+    "z": [
+        -49.407962799072269,
+        0.0,
+        0.0
+    ],
+    "AdsVariant": 1,
+    "BossAlive": true
+}

@@ -1,0 +1,891 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Table2_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 9c6d50a3a409dc943827cae7d71ebbbb, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 104712649871360
+    m_Localized: Boot, you're almost there.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 104743104712704
+    m_Localized: Intercept the column
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105169027895296
+    m_Localized: Boot, you're almost there.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105177936596992
+    m_Localized: Intercept the column
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118068689539072
+    m_Localized: Ah, here they are, just in time.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118471493718016
+    m_Localized: A patrol is approaching you. Deal with them.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118646492663808
+    m_Localized: Destroy the patrol
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119030468612096
+    m_Localized: Get down! Eavesdrop on what they're saying by the truck.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119835737231360
+    m_Localized: Listen the conversation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 120281717575680
+    m_Localized: Everything is in place. Deal with them, and then inspect the trucks.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 120499167072256
+    m_Localized: Deal with them, and then check what's in the trucks.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 120765144666112
+    m_Localized: Okay. They're storing the cargo in a large hangar. Infiltrate it
+      and find the information.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 120958397222912
+    m_Localized: Infiltrate the hangar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121193257275392
+    m_Localized: The distant large hangar is your target.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121560346955776
+    m_Localized: Great, here's the key. We need to open the hangar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121812156190720
+    m_Localized: Key to the hangar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123662838304768
+    m_Localized: to pick up
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125434906578944
+    m_Localized: Damn. Damn it. It's closed, we need to find the key.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125581401034752
+    m_Localized: Find the key
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126758452760576
+    m_Localized: Great, you've opened the door, now look around.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127626568830976
+    m_Localized: Inspect the hangar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133907417436160
+    m_Localized: YOU DIED!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 138581495287808
+    m_Localized: Press
+    m_Metadata:
+      m_Items: []
+  - m_Id: 138779835535360
+    m_Localized: USE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 138906545459200
+    m_Localized: to
+    m_Metadata:
+      m_Items: []
+  - m_Id: 373388921835520
+    m_Localized: Chase
+    m_Metadata:
+      m_Items: []
+  - m_Id: 373632250187776
+    m_Localized: The reconnaissance team intercepted information that a column carrying
+      unknown weaponry is en route to one of Alkuda's camps. Our task is to intercept
+      the column and identify the transported armaments.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 373873162620928
+    m_Localized: Search
+    m_Metadata:
+      m_Items: []
+  - m_Id: 374631702499328
+    m_Localized: Thanks to the information obtained from the last mission, we managed
+      to track the whereabouts of the Alkuda leader. It's time to deal with him.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 374742306295808
+    m_Localized: Rat hole
+    m_Metadata:
+      m_Items: []
+  - m_Id: 374833352052736
+    m_Localized: You can't hide forever. All the trails lead to one place. A remote
+      camp among the mountains, the last refuge of the Alkuda leader. There's nowhere
+      left to run.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 375483435618304
+    m_Localized: No
+    m_Metadata:
+      m_Items: []
+  - m_Id: 375496601538560
+    m_Localized: Yes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 376121427005440
+    m_Localized: Disabled
+    m_Metadata:
+      m_Items: []
+  - m_Id: 376245284802560
+    m_Localized: Enabled
+    m_Metadata:
+      m_Items: []
+  - m_Id: 376451141242880
+    m_Localized: Disabled
+    m_Metadata:
+      m_Items: []
+  - m_Id: 376463870955520
+    m_Localized: Enabled
+    m_Metadata:
+      m_Items: []
+  - m_Id: 451325440331776
+    m_Localized: Revolver
+    m_Metadata:
+      m_Items: []
+  - m_Id: 451736922525696
+    m_Localized: Health Pack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 452026212061184
+    m_Localized: Body Armour
+    m_Metadata:
+      m_Items: []
+  - m_Id: 452190922379264
+    m_Localized: Helmet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 453191108694016
+    m_Localized: Ammo Crate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 453300768772096
+    m_Localized: Shotgun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 454244722053120
+    m_Localized: Health Pack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 454288640610304
+    m_Localized: to heal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 454717936013312
+    m_Localized: pick up
+    m_Metadata:
+      m_Items: []
+  - m_Id: 454779994935296
+    m_Localized: pick up
+    m_Metadata:
+      m_Items: []
+  - m_Id: 454780015906816
+    m_Localized: pick up
+    m_Metadata:
+      m_Items: []
+  - m_Id: 455125324566528
+    m_Localized: Armor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 455486173122560
+    m_Localized: to pick up
+    m_Metadata:
+      m_Items: []
+  - m_Id: 455645686697984
+    m_Localized: Backpack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 455755522936832
+    m_Localized: to take contents
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456077226053632
+    m_Localized: to pick up
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456625790685184
+    m_Localized: to pick up ammo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456917760380928
+    m_Localized: Assault Rifle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456947737071616
+    m_Localized: to pick up
+    m_Metadata:
+      m_Items: []
+  - m_Id: 457089525518336
+    m_Localized: Pistol
+    m_Metadata:
+      m_Items: []
+  - m_Id: 457117325365248
+    m_Localized: to pick up
+    m_Metadata:
+      m_Items: []
+  - m_Id: 459780330917888
+    m_Localized: Revolver
+    m_Metadata:
+      m_Items: []
+  - m_Id: 459915156819968
+    m_Localized: to pick up
+    m_Metadata:
+      m_Items: []
+  - m_Id: 463640025927680
+    m_Localized: Shotgun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 463669339918336
+    m_Localized: to pick up
+    m_Metadata:
+      m_Items: []
+  - m_Id: 463824554332160
+    m_Localized: AWP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 464055626928128
+    m_Localized: to pick up
+    m_Metadata:
+      m_Items: []
+  - m_Id: 464274108223488
+    m_Localized: Frag Grenade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 464299739615232
+    m_Localized: pick up
+    m_Metadata:
+      m_Items: []
+  - m_Id: 466016518574080
+    m_Localized: Door
+    m_Metadata:
+      m_Items: []
+  - m_Id: 466225264889856
+    m_Localized: to open
+    m_Metadata:
+      m_Items: []
+  - m_Id: 466261981827072
+    m_Localized: to open
+    m_Metadata:
+      m_Items: []
+  - m_Id: 466303543185408
+    m_Localized: Door
+    m_Metadata:
+      m_Items: []
+  - m_Id: 466484154109952
+    m_Localized: Door
+    m_Metadata:
+      m_Items: []
+  - m_Id: 466543386071040
+    m_Localized: to open
+    m_Metadata:
+      m_Items: []
+  - m_Id: 466663733235712
+    m_Localized: Door
+    m_Metadata:
+      m_Items: []
+  - m_Id: 466674567122944
+    m_Localized: to open
+    m_Metadata:
+      m_Items: []
+  - m_Id: 469741412847616
+    m_Localized: laptop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 469770038972416
+    m_Localized: to read
+    m_Metadata:
+      m_Items: []
+  - m_Id: 472681502511104
+    m_Localized: Damn. They've called for reinforcements. Large enemy forces are
+      converging on your position. Defend yourself.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 472882971709440
+    m_Localized: Looks like that's it. Time to get out.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 473059954561024
+    m_Localized: Escape
+    m_Metadata:
+      m_Items: []
+  - m_Id: 481638585503744
+    m_Localized: min
+    m_Metadata:
+      m_Items: []
+  - m_Id: 481680331411456
+    m_Localized: Left
+    m_Metadata:
+      m_Items: []
+  - m_Id: 481716402425856
+    m_Localized: Hang On
+    m_Metadata:
+      m_Items: []
+  - m_Id: 482065867640832
+    m_Localized: YOU DIED!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 482577476259840
+    m_Localized: Adrenaline
+    m_Metadata:
+      m_Items: []
+  - m_Id: 484888034447360
+    m_Localized: Oxygen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 484954635800576
+    m_Localized: Stamina
+    m_Metadata:
+      m_Items: []
+  - m_Id: 485044217745408
+    m_Localized: 'Helmet:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 485214749757440
+    m_Localized: 'Armour:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 486386751541248
+    m_Localized: Shields
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488304517353472
+    m_Localized: Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488585418280960
+    m_Localized: Main Menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488866801553408
+    m_Localized: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 489371313410048
+    m_Localized: Graphics
+    m_Metadata:
+      m_Items: []
+  - m_Id: 489450279571456
+    m_Localized: Audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 489586841915392
+    m_Localized: Gameplay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 489839787806720
+    m_Localized: Input
+    m_Metadata:
+      m_Items: []
+  - m_Id: 490006297481216
+    m_Localized: Input Bindings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 490077353185280
+    m_Localized: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 491778172817408
+    m_Localized: VSync
+    m_Metadata:
+      m_Items: []
+  - m_Id: 491973849681920
+    m_Localized: Disabled
+    m_Metadata:
+      m_Items: []
+  - m_Id: 492015864025088
+    m_Localized: Every VBlank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 492449513115648
+    m_Localized: Every 2nd VBlank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 493133620875264
+    m_Localized: Uncapped
+    m_Metadata:
+      m_Items: []
+  - m_Id: 493203439259648
+    m_Localized: Horizontal FoV
+    m_Metadata:
+      m_Items: []
+  - m_Id: 494693558030336
+    m_Localized: Master Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 499777733955584
+    m_Localized: Effects Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 499896218849280
+    m_Localized: Music Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 500250603982848
+    m_Localized: Crosshair Colour
+    m_Metadata:
+      m_Items: []
+  - m_Id: 500365615992832
+    m_Localized: White
+    m_Metadata:
+      m_Items: []
+  - m_Id: 500384112873472
+    m_Localized: Green
+    m_Metadata:
+      m_Items: []
+  - m_Id: 500400667791360
+    m_Localized: Red
+    m_Metadata:
+      m_Items: []
+  - m_Id: 500414026649600
+    m_Localized: Blue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 500427410673664
+    m_Localized: Cyan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 500443353223168
+    m_Localized: Magenta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 500458066841600
+    m_Localized: Yellow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 500648794427392
+    m_Localized: Auto Reload
+    m_Metadata:
+      m_Items: []
+  - m_Id: 500891392970752
+    m_Localized: No
+    m_Metadata:
+      m_Items: []
+  - m_Id: 500909248122880
+    m_Localized: Yes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 501069982240768
+    m_Localized: Head Bob
+    m_Metadata:
+      m_Items: []
+  - m_Id: 501779234852864
+    m_Localized: Horizontal Mouse Sensitivity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 501865222279168
+    m_Localized: Vertical Mouse Sensitivity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 502019321008128
+    m_Localized: Invert Mouse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 502159951826944
+    m_Localized: No
+    m_Metadata:
+      m_Items: []
+  - m_Id: 502172048199680
+    m_Localized: Yes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 502349492424704
+    m_Localized: Mouse Acceleration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 502502626463744
+    m_Localized: Disabled
+    m_Metadata:
+      m_Items: []
+  - m_Id: 502523044335616
+    m_Localized: Enabled
+    m_Metadata:
+      m_Items: []
+  - m_Id: 502656653889536
+    m_Localized: Mouse Acceleration Amount
+    m_Metadata:
+      m_Items: []
+  - m_Id: 503553903595520
+    m_Localized: Mouse Smoothing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 503701719257088
+    m_Localized: Disabled
+    m_Metadata:
+      m_Items: []
+  - m_Id: 503726528565248
+    m_Localized: Enabled
+    m_Metadata:
+      m_Items: []
+  - m_Id: 503773613821952
+    m_Localized: Mouse Smoothing Amount
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504163478573056
+    m_Localized: Reset To Defaults
+    m_Metadata:
+      m_Items: []
+  - m_Id: 505067879567360
+    m_Localized: Show
+    m_Metadata:
+      m_Items: []
+  - m_Id: 508729964138496
+    m_Localized: Stamina
+    m_Metadata:
+      m_Items: []
+  - m_Id: 524579089715200
+    m_Localized: The leader of Alkuda should be in the building at the opposite end
+      of the city. Find him.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 524709020864512
+    m_Localized: Find the leader
+    m_Metadata:
+      m_Items: []
+  - m_Id: 524868916121600
+    m_Localized: There are patrols everywhere, reaching the leader won't be easy.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 525072725741568
+    m_Localized: He must be somewhere in this building.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 525467653017600
+    m_Localized: Darn, he's not here. We need to find out where he escaped.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 525589497548800
+    m_Localized: Find a lead
+    m_Metadata:
+      m_Items: []
+  - m_Id: 525725581742080
+    m_Localized: Hurry, get in the car.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 525900639408128
+    m_Localized: Get in the car
+    m_Metadata:
+      m_Items: []
+  - m_Id: 526224523563008
+    m_Localized: It's time to get out of here.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 526678171095040
+    m_Localized: Ha-ha, got you, Boot.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 526870597373952
+    m_Localized: Trap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 526992634843136
+    m_Localized: laptop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 527027074273280
+    m_Localized: to read
+    m_Metadata:
+      m_Items: []
+  - m_Id: 528257339133952
+    m_Localized: Darn it. Curse. It's a trap, hurry back to the car and get out of
+      here.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 531595355000832
+    m_Localized: Get to the car
+    m_Metadata:
+      m_Items: []
+  - m_Id: 532728072933376
+    m_Localized: Great, Alkuda is done, and now it's time to get out of here. There's
+      a helicopter at the opposite end of the base, head to it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 532921342267392
+    m_Localized: Get to the helicopter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 533283272953856
+    m_Localized: The leader of Alkuda is hiding in the main building of his camp.
+      Find him and deal with him.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 533422662258688
+    m_Localized: Find the leader
+    m_Metadata:
+      m_Items: []
+  - m_Id: 533581664129024
+    m_Localized: He's hiding on the second floor. There's a staircase on the side
+      of the building.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 533640950616064
+    m_Localized: Find the leader
+    m_Metadata:
+      m_Items: []
+  - m_Id: 534071781134336
+    m_Localized: Darn it. Rascal. I need time to hack the helicopter. Hold on.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 534290308567040
+    m_Localized: The helicopter is ours now. Let's get out of here.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 534533855023104
+    m_Localized: min
+    m_Metadata:
+      m_Items: []
+  - m_Id: 534582836105216
+    m_Localized: Left
+    m_Metadata:
+      m_Items: []
+  - m_Id: 534605191745536
+    m_Localized: Hang On
+    m_Metadata:
+      m_Items: []
+  - m_Id: 538756860645376
+    m_Localized: bear and dog Snowball
+    m_Metadata:
+      m_Items: []
+  - m_Id: 538816067440640
+    m_Localized: 'A bear got into the beehive to steal honey. The beekeeper didn''t
+      know what to do anymore. He would only take his gun, and the bear would immediately
+      climb a tree, out of reach.
+
+
+
+      Well, he saw an ad in the newspaper: "I
+      can help with any kind of animal." He called that specialist, and in an hour,
+      a huge guy arrived with a gun and a little dachshund.
+
+
+
+      He introduced
+      his little friend:
+
+
+
+      This is Snowball, he''ll help us a lot.
+
+      And
+      they went to the beehive with the bear. As soon as the bear saw them, he climbed
+      a tree. The guy handed the beekeeper the gun and explained:
+
+
+
+      I''ll
+      climb the tree and drop the bear, and Snowball will get into his ass and tear
+      him apart. Got it?
+
+      I got it. But what''s the gun for?
+
+      If I fall
+      down before him, shoot Snowball.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 539243160834048
+    m_Localized: Bombs, my bombs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 539315223171072
+    m_Localized: Bombs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 539610586058752
+    m_Localized: laptop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 539627833036800
+    m_Localized: to read
+    m_Metadata:
+      m_Items: []
+  - m_Id: 570505879654400
+    m_Localized: laptop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 570505946763264
+    m_Localized: laptop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 570505976123392
+    m_Localized: laptop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 570506005483520
+    m_Localized: laptop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 570506030649344
+    m_Localized: laptop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 570506060009472
+    m_Localized: laptop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 570537693450240
+    m_Localized: read
+    m_Metadata:
+      m_Items: []
+  - m_Id: 570537718616064
+    m_Localized: read
+    m_Metadata:
+      m_Items: []
+  - m_Id: 570537777336320
+    m_Localized: read
+    m_Metadata:
+      m_Items: []
+  - m_Id: 570537840250880
+    m_Localized: read
+    m_Metadata:
+      m_Items: []
+  - m_Id: 570537869611008
+    m_Localized: to read
+    m_Metadata:
+      m_Items: []
+  - m_Id: 570537928331264
+    m_Localized: read
+    m_Metadata:
+      m_Items: []
+  - m_Id: 571610835488768
+    m_Localized: Nails
+    m_Metadata:
+      m_Items: []
+  - m_Id: 572760146087936
+    m_Localized: "Mom is packing lunch for her son:\r\n\u2014 I put bread, sausage,
+      and nails in your backpack.\r\n\u2014 Mom, why??\r\n\u2014 Well, you take the
+      bread, put sausage on it, and eat.\r\n\u2014 And the nails?\r\n\u2014 There
+      they are!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 574682726961152
+    m_Localized: I believed my parents in vain when they said, 'When you turn 18,
+      you can become whatever you want.' I'm already 25, and I'm still not Batman.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 574707150393344
+    m_Localized: Batman
+    m_Metadata:
+      m_Items: []
+  - m_Id: 596578545733632
+    m_Localized: Yes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 596801623986176
+    m_Localized: No
+    m_Metadata:
+      m_Items: []
+  - m_Id: 640218479497216
+    m_Localized: Apply Keyboard Defaults
+    m_Metadata:
+      m_Items: []
+  - m_Id: 640271847821312
+    m_Localized: This will reset the keys based on the selected keyboard layout
+    m_Metadata:
+      m_Items: []
+  - m_Id: 640887026388992
+    m_Localized: Keyboard Layout
+    m_Metadata:
+      m_Items: []
+  - m_Id: 641402082725888
+    m_Localized: Keyboard Layout
+    m_Metadata:
+      m_Items: []
+  - m_Id: 641472253431808
+    m_Localized: Apply Keyboard Defaults
+    m_Metadata:
+      m_Items: []
+  - m_Id: 641484437884928
+    m_Localized: This will reset the keys based on the selected keyboard layout
+    m_Metadata:
+      m_Items: []
+  - m_Id: 642521198530560
+    m_Localized: Keyboard Layout
+    m_Metadata:
+      m_Items: []
+  - m_Id: 642658100613120
+    m_Localized: Apply Keyboard Defaults
+    m_Metadata:
+      m_Items: []
+  - m_Id: 642674051551232
+    m_Localized: This will reset the keys based on the selected keyboard layout
+    m_Metadata:
+      m_Items: []
+  - m_Id: 668493817876480
+    m_Localized: Get into the hangar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 668782268551168
+    m_Localized: Great, here's the key. We need to open the hangar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 669150134177792
+    m_Localized: Get into the hangar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1962375868354560
+    m_Localized: Hold
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1962387998281728
+    m_Localized: Press
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1963495403589632
+    m_Localized: Hold
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1992591974109184
+    m_Localized: interact
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2312931522678784
+    m_Localized: Interact
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2320790016790528
+    m_Localized: Inspect the building
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2337717619560448
+    m_Localized: to pick up
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7257670990729216
+    m_Localized: to open
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

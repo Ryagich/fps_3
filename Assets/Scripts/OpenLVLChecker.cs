@@ -23,22 +23,22 @@ public class OpenLVLChecker : MonoBehaviour
 
     private void Init()
     {
-        if (YandexGame.SDKEnabled)
+        if (YG2.isSDKEnabled)
         {
             InitInit();
         }
         else
         {
-            YandexGame.GetDataEvent += InitInit;
+            YG2.onGetSDKData += InitInit;
         }
         
     }
 
     private void InitInit()
     {
-        for (int i = 0; i < YandexGame.savesData.openLevels.Length; i++)
+        for (int i = 0; i < YG2.saves.openLevels.Length; i++)
         {
-            menu.m_Entries[i].interactable = YandexGame.savesData.openLevels[i];
+            menu.m_Entries[i].interactable = YG2.saves.openLevels[i];
         }
     }
 }

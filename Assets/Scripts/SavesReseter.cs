@@ -15,8 +15,8 @@ public class SavesReseter : MonoBehaviour
 
     private void Reset()
     {
-        YandexGame.ResetSaveProgress();
-        YandexGame.SaveProgress();
+        YG2.SetDefaultSaves();
+        YG2.SaveProgress();
     }
 
     private void Update()

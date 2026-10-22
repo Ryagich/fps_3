@@ -9,21 +9,21 @@ public class AdsChooser : MonoBehaviour
     // 80% - 1 min; 20 % - 5 min
     // private void Start()
     // {
-    //     if (YandexGame.SDKEnabled)
+    //     if (YG2.isSDKEnabled)
     //     {
-    //         YandexGame.GetDataEvent += Init;
-    //         Debug.Log("YandexGame.SDKEnabled");
+    //         YG2.onGetSDKData += Init;
+    //         Debug.Log("YG2.isSDKEnabled");
     //     }
     //     else
     //     {
-    //         YandexGame.GetDataEvent += Init;
-    //         Debug.Log("NOT YandexGame.SDKEnabled");
+    //         YG2.onGetSDKData += Init;
+    //         Debug.Log("NOT YG2.isSDKEnabled");
     //     }
     // }
     //
     // private void Init()
     // {
-    //     if (YandexGame.savesData.AdsVariant != 0)
+    //     if (YG2.saves.AdsVariant != 0)
     //         return;
     //     var variant = Random.Range(0f, 1f);
     //     if (variant > .2f)
@@ -33,8 +33,8 @@ public class AdsChooser : MonoBehaviour
     //         {
     //             { "event", value }
     //         };
-    //         YandexMetrica.Send("event", eventParams);
-    //         YandexGame.savesData.AdsVariant = 1;
+    //         YG2.MetricaSend("event", eventParams);
+    //         YG2.saves.AdsVariant = 1;
     //     }
     //     else
     //     {
@@ -43,10 +43,10 @@ public class AdsChooser : MonoBehaviour
     //         {
     //             { "event", value }
     //         };
-    //         YandexMetrica.Send("event", eventParams);
-    //         YandexGame.savesData.AdsVariant = 2;
+    //         YG2.MetricaSend("event", eventParams);
+    //         YG2.saves.AdsVariant = 2;
     //     }
     //
-    //     YandexGame.SaveProgress();
+    //     YG2.SaveProgress();
     // }
 }

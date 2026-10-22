@@ -15,33 +15,33 @@ public class PlayerPlaceSaver : MonoBehaviour
     {
         Instance = this;
 
-        if (YandexGame.SDKEnabled)
+        if (YG2.isSDKEnabled)
         {
             Init();
         }
         else
         {
-            YandexGame.GetDataEvent += Init;
+            YG2.onGetSDKData += Init;
         }
     }
 
     private void Init()
     {
-        if (YandexGame.savesData.x[id] != 0)
+        if (YG2.saves.x[id] != 0)
         {
             _playerSpawner.transform.position = new
-            (YandexGame.savesData.x[id],
-                YandexGame.savesData.y[id],
-                YandexGame.savesData.z[id]);
+            (YG2.saves.x[id],
+                YG2.saves.y[id],
+                YG2.saves.z[id]);
         }
-        YandexGame.GetDataEvent -= Init;
+        YG2.onGetSDKData -= Init;
     }
 
     public void Save(float x, float y, float z)
     {
-        YandexGame.savesData.x[id] = x;
-        YandexGame.savesData.y[id] = y;
-        YandexGame.savesData.z[id] = z;
-        YandexGame.SaveProgress();
+        YG2.saves.x[id] = x;
+        YG2.saves.y[id] = y;
+        YG2.saves.z[id] = z;
+        YG2.SaveProgress();
     }
 }

@@ -24,6 +24,6 @@ public class YaTriggerStats : MonoBehaviour
         {
             { "triggers", triggerValue }
         };
-        YandexMetrica.Send("triggers", eventParams);
+        YG2.MetricaSend("triggers", eventParams);
     }
 }

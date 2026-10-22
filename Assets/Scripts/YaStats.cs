@@ -15,6 +15,6 @@ public class YaStats : MonoBehaviour
         {
             { "event", triggerValue }
         };
-        YandexMetrica.Send("event", eventParams);
+        YG2.MetricaSend("event", eventParams);
     }
 }

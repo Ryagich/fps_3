@@ -11,19 +11,19 @@ public class BossStateController : MonoBehaviour
 
     private void Awake()
     {
-        if (YandexGame.SDKEnabled)
+        if (YG2.isSDKEnabled)
         {
             Init();
         }
         else
         {
-            YandexGame.GetDataEvent += Init;
+            YG2.onGetSDKData += Init;
         }
     }
 
     public void Init()
     {
-        if (YandexGame.savesData.BossAlive )
+        if (YG2.saves.BossAlive )
             return;
         StartCoroutine(Wait());
     }
@@ -36,13 +36,13 @@ public class BossStateController : MonoBehaviour
     }
     public void BossDeath()
     {
-        YandexGame.savesData.BossAlive = false;
-        YandexGame.SaveProgress();
+        YG2.saves.BossAlive = false;
+        YG2.SaveProgress();
     }
     
     public void RespawnBoss()
     {
-        YandexGame.savesData.BossAlive = true;
-        YandexGame.SaveProgress();
+        YG2.saves.BossAlive = true;
+        YG2.SaveProgress();
     }
 }

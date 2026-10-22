@@ -24,6 +24,6 @@ public class YaDeathStats : MonoBehaviour
         {
             { "death", triggerValue }
         };
-        YandexMetrica.Send("death", eventParams);
+        YG2.MetricaSend("death", eventParams);
     }
 }

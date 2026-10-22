@@ -9,10 +9,10 @@ public class BasiсLvLSaver : MonoBehaviour
 
     public void Save()
     {
-        if (YandexGame.savesData.openLevels.Length > lvlId + 1)
+        if (YG2.saves.openLevels.Length > lvlId + 1)
         {
-            YandexGame.savesData.openLevels[lvlId + 1] = true;
-            YandexGame.SaveProgress();
+            YG2.saves.openLevels[lvlId + 1] = true;
+            YG2.SaveProgress();
         }
     }
 }

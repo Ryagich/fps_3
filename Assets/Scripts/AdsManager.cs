@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -18,9 +19,18 @@ public class AdsManager : MonoBehaviour
         text.gameObject.SetActive(false);
     }
 
+    private void Start()
+    {
+        var adsStartDate = new DateTime(DateTime.Now.Year, 11, 1);
+        if (DateTime.Now < adsStartDate)
+            return;
+
+        StartCoroutine(Cooldown());
+    }
+
     private IEnumerator Cooldown()
     {
-        var s = YandexGame.savesData.AdsVariant == 1 ? 60 : 300;
+        var s = YG2.saves.AdsVariant == 1 ? 60 : 300;
         while (true)
         {
             yield return new WaitForSeconds(s);
@@ -28,15 +38,15 @@ public class AdsManager : MonoBehaviour
             var t = time_between;
             while (t > 0)
             {
-                var str = YandexGame.EnvironmentData.language == "ru" ? ru :
-                    YandexGame.EnvironmentData.language == "tr" ? tr : en;
+                var str = YG2.envir.language == "ru" ? ru :
+                    YG2.envir.language == "tr" ? tr : en;
                 text.text = str + " " + t;
                 yield return new WaitForSeconds(1);
                 t--;
             }
 
             text.gameObject.SetActive(false);
-            YandexGame.FullscreenShow();
+            YG2.InterstitialAdvShow();
         }
     }
 }

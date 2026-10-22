@@ -33,7 +33,7 @@ namespace NeoFPS
 				Rigidbody rb = PoolManager.GetPooledObject<Rigidbody> (m_PooledObjectPrototype, m_TargetTransforms [i].position, rotation);
 				if (rb != null)
 				{
-					rb.velocity = rotation * m_SpawnVelocity;
+					rb.linearVelocity = rotation * m_SpawnVelocity;
 					rb.angularVelocity = m_SpawnAngularVelocity;
 				}
 

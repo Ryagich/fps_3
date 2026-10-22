@@ -96,7 +96,7 @@ namespace NeoFPS
         {
             m_RigidBody.position = position;
             m_RigidBody.rotation = Quaternion.LookRotation(forward, Vector3.up);
-            m_RigidBody.velocity = velocity;
+            m_RigidBody.linearVelocity = velocity;
 
             // Get drop items
             inventory.GetItems(m_Items, filter);

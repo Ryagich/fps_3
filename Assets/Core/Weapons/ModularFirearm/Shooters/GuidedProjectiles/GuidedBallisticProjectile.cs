@@ -113,7 +113,7 @@ namespace NeoFPS.ModularFirearms
                 localTransform.position = position;
                 localTransform.LookAt(position + velocity);
 
-                m_Rigidbody.velocity = velocity;
+                m_Rigidbody.linearVelocity = velocity;
                 m_LerpFromPosition = m_LerpToPosition = position;
             }
             else

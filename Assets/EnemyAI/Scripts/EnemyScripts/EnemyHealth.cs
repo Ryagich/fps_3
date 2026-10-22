@@ -59,7 +59,7 @@ namespace EnemyAI
             foreach (Rigidbody member in GetComponentsInChildren<Rigidbody>())
             {
                 member.isKinematic = false;
-                member.velocity = Vector3.zero;
+                member.linearVelocity = Vector3.zero;
             }
         }
     }

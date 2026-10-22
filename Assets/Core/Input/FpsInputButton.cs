@@ -237,12 +237,12 @@ namespace NeoFPS
 
         public static string[] names()
         {
-            if (YandexGame.EnvironmentData.language == "ru")
+            if (YG2.envir.language == "ru")
             {
                 return names_ru;
             }
 
-            if (YandexGame.EnvironmentData.language == "tr")
+            if (YG2.envir.language == "tr")
             {
                 return names_tr;
             }

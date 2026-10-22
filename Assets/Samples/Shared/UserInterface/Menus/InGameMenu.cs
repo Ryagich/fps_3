@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
@@ -86,11 +86,11 @@ namespace NeoFPS.Samples
         public void OnPressExit()
         {
             ConfirmationPopup.ShowPopup("Are you sure you want to quit?", OnExitYes, OnExitNo);
-            if (YandexGame.EnvironmentData.language == "ru")
+            if (YG2.envir.language == "ru")
             {
                 ConfirmationPopup.ShowPopup("Вы уверены, что хотите выйти?", OnExitYes, OnExitNo);
             }
-            if (YandexGame.EnvironmentData.language == "tr")
+            if (YG2.envir.language == "tr")
             {
                 ConfirmationPopup.ShowPopup("Çıkmak istediğinizden emin misiniz?", OnExitYes, OnExitNo);
             }

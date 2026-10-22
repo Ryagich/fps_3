@@ -122,7 +122,7 @@ Shader "NeoFPS/Standard/FireballSheet Additive (Channel 0)"
 					UNITY_UNROLL
 					for (int c = 1; c < 8; c++)
 					{
-					float colorPos = saturate((time - gradient.colors[c-1].w) / (gradient.colors[c].w - gradient.colors[c-1].w)) * step(c, (float)gradient.colorsLength-1);
+					float colorPos = saturate((time - gradient.colors[c-1].w) / max(gradient.colors[c].w - gradient.colors[c-1].w, 0.00001)) * step(c, (float)gradient.colorsLength-1);
 					color = lerp(color, gradient.colors[c].rgb, lerp(colorPos, step(0.01, colorPos), gradient.type));
 					}
 					#ifndef UNITY_COLORSPACE_GAMMA
@@ -132,7 +132,7 @@ Shader "NeoFPS/Standard/FireballSheet Additive (Channel 0)"
 					UNITY_UNROLL
 					for (int a = 1; a < 8; a++)
 					{
-					float alphaPos = saturate((time - gradient.alphas[a-1].y) / (gradient.alphas[a].y - gradient.alphas[a-1].y)) * step(a, (float)gradient.alphasLength-1);
+					float alphaPos = saturate((time - gradient.alphas[a-1].y) / max(gradient.alphas[a].y - gradient.alphas[a-1].y, 0.00001)) * step(a, (float)gradient.alphasLength-1);
 					alpha = lerp(alpha, gradient.alphas[a].x, lerp(alphaPos, step(0.01, alphaPos), gradient.type));
 					}
 					return float4(color, alpha);

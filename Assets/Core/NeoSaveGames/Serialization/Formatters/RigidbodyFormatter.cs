@@ -25,7 +25,7 @@ namespace NeoSaveGames.Serialization.Formatters
 
         protected override void WriteProperties(INeoSerializer writer, Rigidbody from, NeoSerializedGameObject nsgo)
         {
-            writer.WriteValue(k_VelocityKey, from.velocity);
+            writer.WriteValue(k_VelocityKey, from.linearVelocity);
             writer.WriteValue(k_AngularVKey, from.angularVelocity);
             writer.WriteValue(k_DetectCollisionsKey, from.detectCollisions);
             writer.WriteValue(k_InterpolationKey, (int)from.interpolation);
@@ -42,7 +42,7 @@ namespace NeoSaveGames.Serialization.Formatters
             float floatProp;
 
             if (reader.TryReadValue(k_VelocityKey, out vector3Prop, Vector3.zero))
-                to.velocity = vector3Prop;
+                to.linearVelocity = vector3Prop;
 
             if (reader.TryReadValue(k_AngularVKey, out vector3Prop, Vector3.zero))
                 to.angularVelocity = vector3Prop;

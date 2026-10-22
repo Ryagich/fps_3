@@ -1,4 +1,4 @@
-﻿#if !UNITY_2018_OR_NEWER && UNITY_EDITOR
+#if !UNITY_2018_OR_NEWER && UNITY_EDITOR
 #define AGGRESIVE_CURSOR_LOCK
 #endif
 
@@ -162,9 +162,9 @@ namespace NeoFPS
         //         str = s_CastInstance.m_InputButtons[button - fixedInputButtons.Length].displayName;
         //     if (str == "Space")
         //    {
-        //         if (YandexGame.EnvironmentData.language == "ru")
+        //         if (YG2.envir.language == "ru")
         //          return "Пробел";
-        //       if (YandexGame.EnvironmentData.language == "tr")
+        //       if (YG2.envir.language == "tr")
         //            return "boşluk";
         //         return str;
         //   }

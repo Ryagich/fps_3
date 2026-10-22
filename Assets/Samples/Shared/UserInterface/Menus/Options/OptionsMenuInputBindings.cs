@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -48,17 +48,17 @@ namespace NeoFPS.Samples
 
         public override void Initialise(BaseMenu menu)
         {
-            if (YandexGame.SDKEnabled)
+            if (YG2.isSDKEnabled)
             {
-                YandexGame.GetDataEvent += LoadOptions;
-                YandexGame.GetDataEvent += ()=>base.Initialise(menu);
-                Debug.Log("YandexGame.SDKEnabled");
+                YG2.onGetSDKData += LoadOptions;
+                YG2.onGetSDKData += ()=>base.Initialise(menu);
+                Debug.Log("YG2.isSDKEnabled");
             }
             else
             {
-                YandexGame.GetDataEvent += LoadOptions;
-                YandexGame.GetDataEvent += ()=>base.Initialise(menu);
-                Debug.Log("NOT YandexGame.SDKEnabled");
+                YG2.onGetSDKData += LoadOptions;
+                YG2.onGetSDKData += ()=>base.Initialise(menu);
+                Debug.Log("NOT YG2.isSDKEnabled");
             }
         }
 
@@ -144,7 +144,7 @@ namespace NeoFPS.Samples
             {
                 m_Dividers[itr].label = (key == string.Empty) ? "Misc" : key;
 
-                if (YandexGame.EnvironmentData.language == "ru")
+                if (YG2.envir.language == "ru")
                 {
                     if (category_ru.ContainsKey(m_Dividers[itr].label))
                         m_Dividers[itr].label = category_ru[m_Dividers[itr].label];
@@ -152,7 +152,7 @@ namespace NeoFPS.Samples
                         m_Dividers[itr].label = "Разное";
                 }
 
-                if (YandexGame.EnvironmentData.language == "tr")
+                if (YG2.envir.language == "tr")
                 {
                     if (category_ru.ContainsKey(m_Dividers[itr].label))
                         m_Dividers[itr].label = category_tr[m_Dividers[itr].label];

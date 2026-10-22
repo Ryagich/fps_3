@@ -22,7 +22,7 @@ namespace NeoFPS.Samples
 
             Vector3 forceDirection = Vector3.Cross(pos.normalized, Vector3.up);
 
-            m_RigidBody.velocity = forceDirection * m_Speed;
+            m_RigidBody.linearVelocity = forceDirection * m_Speed;
 
             //m_RigidBody.AddForce(forceDirection * m_Speed, ForceMode.VelocityChange);
         }

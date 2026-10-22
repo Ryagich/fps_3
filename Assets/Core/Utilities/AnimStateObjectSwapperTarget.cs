@@ -24,7 +24,7 @@ namespace NeoFPS
 			Rigidbody leverRb = PoolManager.GetPooledObject<Rigidbody> (m_PooledObject, m_TargetTransform.position, m_TargetTransform.rotation);
 			if (leverRb != null)
 			{
-				leverRb.velocity = m_TargetTransform.rotation * m_SpawnVelocity;
+				leverRb.linearVelocity = m_TargetTransform.rotation * m_SpawnVelocity;
 				leverRb.angularVelocity = m_SpawnAngularVelocity * Mathf.Deg2Rad;
 				m_TargetTransform.gameObject.SetActive (false);
 			}

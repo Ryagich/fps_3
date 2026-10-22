@@ -33,7 +33,7 @@ namespace NeoFPS
         {
             m_RigidBody.position = position;
             m_RigidBody.rotation = Quaternion.LookRotation(forward, Vector3.up);
-            m_RigidBody.velocity = velocity;
+            m_RigidBody.linearVelocity = velocity;
 
             if (m_Pickup != null && m_Pickup.item != null)
                 m_Pickup.item.quantity = item.quantity;

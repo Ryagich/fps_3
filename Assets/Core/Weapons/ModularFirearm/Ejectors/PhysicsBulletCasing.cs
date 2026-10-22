@@ -83,7 +83,7 @@ namespace NeoFPS.ModularFirearms
                 m_RigidBody.detectCollisions = true;
                 m_RigidBody.collisionDetectionMode = CollisionDetectionMode.Continuous;
                 m_RigidBody.interpolation = RigidbodyInterpolation.None;
-                m_RigidBody.velocity = m_Velocity;
+                m_RigidBody.linearVelocity = m_Velocity;
                 m_RigidBody.angularVelocity = m_Angular;
             }
 		}
@@ -117,7 +117,7 @@ namespace NeoFPS.ModularFirearms
             m_RigidBody.detectCollisions = true;
             m_RigidBody.collisionDetectionMode = CollisionDetectionMode.Continuous;
             m_RigidBody.interpolation = RigidbodyInterpolation.None;
-            m_RigidBody.velocity = m_Velocity;
+            m_RigidBody.linearVelocity = m_Velocity;
             m_RigidBody.angularVelocity = m_Angular;
 
             // release coroutine

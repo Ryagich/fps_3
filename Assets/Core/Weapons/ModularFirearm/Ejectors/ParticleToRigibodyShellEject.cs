@@ -105,7 +105,7 @@ namespace NeoFPS.ModularFirearms
 
                         var rb = PoolManager.GetPooledObject<Rigidbody>(m_RigidbodyPrefab, pos + rot * m_Particles[i].position, rot * Quaternion.Euler(m_Particles[i].rotation3D), Vector3.one * m_ShellScale);
                         rb.angularVelocity = m_Particles[i].angularVelocity3D;
-                        rb.velocity = rot *  m_Particles[i].velocity * velocityScale;
+                        rb.linearVelocity = rot *  m_Particles[i].velocity * velocityScale;
 
                         ++culled;
                     }

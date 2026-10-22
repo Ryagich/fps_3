@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
@@ -51,9 +51,9 @@ namespace NeoFPS.Samples
                         primaryText.text = value.ToString();
                     if (value == KeyCode.Space)
                     {
-                        if (YandexGame.EnvironmentData.language == "ru")
+                        if (YG2.envir.language == "ru")
                             primaryText.text = "Пробел";
-                        if (YandexGame.EnvironmentData.language == "tr")
+                        if (YG2.envir.language == "tr")
                             primaryText.text = "boşluk";
                     }
 
@@ -109,65 +109,65 @@ namespace NeoFPS.Samples
 
                     if (value == KeyCode.LeftShift)
                     {
-                        if (YandexGame.EnvironmentData.language == "ru")
+                        if (YG2.envir.language == "ru")
                             primaryText.text = "Левый Shift";
-                        if (YandexGame.EnvironmentData.language == "tr")
+                        if (YG2.envir.language == "tr")
                             primaryText.text = "Sol Shift";
                     }
 
                     if (value == KeyCode.RightShift)
                     {
-                        if (YandexGame.EnvironmentData.language == "ru")
+                        if (YG2.envir.language == "ru")
                             primaryText.text = "Правый Shift";
-                        if (YandexGame.EnvironmentData.language == "tr")
+                        if (YG2.envir.language == "tr")
                             primaryText.text = "Sağ Shift";
                     }
 
                     if (value == KeyCode.LeftControl)
                     {
-                        if (YandexGame.EnvironmentData.language == "ru")
+                        if (YG2.envir.language == "ru")
                             primaryText.text = "Левый Ctrl";
-                        if (YandexGame.EnvironmentData.language == "tr")
+                        if (YG2.envir.language == "tr")
                             primaryText.text = "Sol Ctrl";
                     }
 
                     if (value == KeyCode.RightControl)
                     {
-                        if (YandexGame.EnvironmentData.language == "ru")
+                        if (YG2.envir.language == "ru")
                             primaryText.text = "Правый Ctrl";
-                        if (YandexGame.EnvironmentData.language == "tr")
+                        if (YG2.envir.language == "tr")
                             primaryText.text = "Sağ Ctrl";
                     }
 
                     if (value == KeyCode.LeftAlt)
                     {
-                        if (YandexGame.EnvironmentData.language == "ru")
+                        if (YG2.envir.language == "ru")
                             primaryText.text = "Левый Alt";
-                        if (YandexGame.EnvironmentData.language == "tr")
+                        if (YG2.envir.language == "tr")
                             primaryText.text = "Sol Alt";
                     }
 
                     if (value == KeyCode.RightAlt)
                     {
-                        if (YandexGame.EnvironmentData.language == "ru")
+                        if (YG2.envir.language == "ru")
                             primaryText.text = "Правый Alt";
-                        if (YandexGame.EnvironmentData.language == "tr")
+                        if (YG2.envir.language == "tr")
                             primaryText.text = "Sağ Alt";
                     }
 
                     if (value == KeyCode.Minus)
                     {
-                        if (YandexGame.EnvironmentData.language == "ru")
+                        if (YG2.envir.language == "ru")
                             primaryText.text = "Минус";
-                        if (YandexGame.EnvironmentData.language == "tr")
+                        if (YG2.envir.language == "tr")
                             primaryText.text = "Eksi";
                     }
 
                     if (value == KeyCode.Plus)
                     {
-                        if (YandexGame.EnvironmentData.language == "ru")
+                        if (YG2.envir.language == "ru")
                             primaryText.text = "Плюс";
-                        if (YandexGame.EnvironmentData.language == "tr")
+                        if (YG2.envir.language == "tr")
                             primaryText.text = "Artı";
                     }
 
@@ -212,29 +212,29 @@ namespace NeoFPS.Samples
                     }
                     if (value == KeyCode.Mouse0)
                     {
-                        if (YandexGame.EnvironmentData.language == "ru")
+                        if (YG2.envir.language == "ru")
                             primaryText.text = "ЛКМ";
-                        if (YandexGame.EnvironmentData.language == "tr")
+                        if (YG2.envir.language == "tr")
                             primaryText.text = "Sol Fare Tuşu";
-                        if (YandexGame.EnvironmentData.language == "en")
+                        if (YG2.envir.language == "en")
                             primaryText.text = "LMB";
                     }
                     if (value == KeyCode.Mouse1)
                     {
-                        if (YandexGame.EnvironmentData.language == "ru")
+                        if (YG2.envir.language == "ru")
                             primaryText.text = "ПКМ";
-                        if (YandexGame.EnvironmentData.language == "tr")
+                        if (YG2.envir.language == "tr")
                             primaryText.text = "Sağ Fare Tuşu";
-                        if (YandexGame.EnvironmentData.language == "en")
+                        if (YG2.envir.language == "en")
                             primaryText.text = "RMB";
                     }
                     if (value == KeyCode.Mouse2)
                     {
-                        if (YandexGame.EnvironmentData.language == "ru")
+                        if (YG2.envir.language == "ru")
                             primaryText.text = "Колесико мыши";
-                        if (YandexGame.EnvironmentData.language == "tr")
+                        if (YG2.envir.language == "tr")
                             primaryText.text = "Fare tekerleği";
-                        if (YandexGame.EnvironmentData.language == "en")
+                        if (YG2.envir.language == "en")
                             primaryText.text = "Mouse wheel";
                     }
                 }
@@ -257,9 +257,9 @@ namespace NeoFPS.Samples
                         secondaryText.text = value.ToString();
                     if (value == KeyCode.Space)
                     {
-                        if (YandexGame.EnvironmentData.language == "ru")
+                        if (YG2.envir.language == "ru")
                             secondaryText.text = "Пробел";
-                        if (YandexGame.EnvironmentData.language == "tr")
+                        if (YG2.envir.language == "tr")
                             secondaryText.text = "boşluk";
                     }
 
@@ -315,65 +315,65 @@ namespace NeoFPS.Samples
 
                     if (value == KeyCode.LeftShift)
                     {
-                        if (YandexGame.EnvironmentData.language == "ru")
+                        if (YG2.envir.language == "ru")
                             secondaryText.text = "Левый Shift";
-                        if (YandexGame.EnvironmentData.language == "tr")
+                        if (YG2.envir.language == "tr")
                             secondaryText.text = "Sol Shift";
                     }
 
                     if (value == KeyCode.RightShift)
                     {
-                        if (YandexGame.EnvironmentData.language == "ru")
+                        if (YG2.envir.language == "ru")
                             secondaryText.text = "Правый Shift";
-                        if (YandexGame.EnvironmentData.language == "tr")
+                        if (YG2.envir.language == "tr")
                             secondaryText.text = "Sağ Shift";
                     }
 
                     if (value == KeyCode.LeftControl)
                     {
-                        if (YandexGame.EnvironmentData.language == "ru")
+                        if (YG2.envir.language == "ru")
                             secondaryText.text = "Левый Ctrl";
-                        if (YandexGame.EnvironmentData.language == "tr")
+                        if (YG2.envir.language == "tr")
                             secondaryText.text = "Sol Ctrl";
                     }
 
                     if (value == KeyCode.RightControl)
                     {
-                        if (YandexGame.EnvironmentData.language == "ru")
+                        if (YG2.envir.language == "ru")
                             secondaryText.text = "Правый Ctrl";
-                        if (YandexGame.EnvironmentData.language == "tr")
+                        if (YG2.envir.language == "tr")
                             secondaryText.text = "Sağ Ctrl";
                     }
 
                     if (value == KeyCode.LeftAlt)
                     {
-                        if (YandexGame.EnvironmentData.language == "ru")
+                        if (YG2.envir.language == "ru")
                             secondaryText.text = "Левый Alt";
-                        if (YandexGame.EnvironmentData.language == "tr")
+                        if (YG2.envir.language == "tr")
                             secondaryText.text = "Sol Alt";
                     }
 
                     if (value == KeyCode.RightAlt)
                     {
-                        if (YandexGame.EnvironmentData.language == "ru")
+                        if (YG2.envir.language == "ru")
                             secondaryText.text = "Правый Alt";
-                        if (YandexGame.EnvironmentData.language == "tr")
+                        if (YG2.envir.language == "tr")
                             secondaryText.text = "Sağ Alt";
                     }
 
                     if (value == KeyCode.Minus)
                     {
-                        if (YandexGame.EnvironmentData.language == "ru")
+                        if (YG2.envir.language == "ru")
                             secondaryText.text = "Минус";
-                        if (YandexGame.EnvironmentData.language == "tr")
+                        if (YG2.envir.language == "tr")
                             secondaryText.text = "Eksi";
                     }
 
                     if (value == KeyCode.Plus)
                     {
-                        if (YandexGame.EnvironmentData.language == "ru")
+                        if (YG2.envir.language == "ru")
                             secondaryText.text = "Плюс";
-                        if (YandexGame.EnvironmentData.language == "tr")
+                        if (YG2.envir.language == "tr")
                             secondaryText.text = "Artı";
                     }
 
@@ -419,29 +419,29 @@ namespace NeoFPS.Samples
 
                     if (value == KeyCode.Mouse0)
                     {
-                        if (YandexGame.EnvironmentData.language == "ru")
+                        if (YG2.envir.language == "ru")
                             secondaryText.text = "ЛКМ";
-                        if (YandexGame.EnvironmentData.language == "tr")
+                        if (YG2.envir.language == "tr")
                             secondaryText.text = "Sol Fare Tuşu";
-                        if (YandexGame.EnvironmentData.language == "en")
+                        if (YG2.envir.language == "en")
                             secondaryText.text = "LMB";
                     }
                     if (value == KeyCode.Mouse1)
                     {
-                        if (YandexGame.EnvironmentData.language == "ru")
+                        if (YG2.envir.language == "ru")
                             secondaryText.text = "ПКМ";
-                        if (YandexGame.EnvironmentData.language == "tr")
+                        if (YG2.envir.language == "tr")
                             secondaryText.text = "Sağ Fare Tuşu";
-                        if (YandexGame.EnvironmentData.language == "en")
+                        if (YG2.envir.language == "en")
                             secondaryText.text = "RMB";
                     }
                     if (value == KeyCode.Mouse2)
                     {
-                        if (YandexGame.EnvironmentData.language == "ru")
+                        if (YG2.envir.language == "ru")
                             secondaryText.text = "Колесико мыши";
-                        if (YandexGame.EnvironmentData.language == "tr")
+                        if (YG2.envir.language == "tr")
                             secondaryText.text = "Fare tekerleği";
-                        if (YandexGame.EnvironmentData.language == "en")
+                        if (YG2.envir.language == "en")
                             secondaryText.text = "Mouse wheel";
                     }
                 }

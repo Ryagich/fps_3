@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.UI;
 using NeoFPS.ModularFirearms;
 using YG;
@@ -84,7 +84,7 @@ namespace NeoFPS
 				gameObject.SetActive (false);
 			else
 			{
-				if (YandexGame.EnvironmentData.language == "ru")
+				if (YG2.envir.language == "ru")
 				{
 					if (mode == "Full-Auto" || mode == "Automatic")
 						mode = "Автоматический";
@@ -93,7 +93,7 @@ namespace NeoFPS
 					else if (mode == "Burst")
 						mode = "Очередь";
 				}
-				else if (YandexGame.EnvironmentData.language == "tr")
+				else if (YG2.envir.language == "tr")
 				{
 					if (mode == "Full-Auto" || mode == "Automatic")
 						mode = "Otomatik";

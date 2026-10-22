@@ -22,7 +22,7 @@ namespace NeoFPS.ThrownProjectiles
         public override void Throw(Vector3 velocity, IDamageSource source)
         {
             base.Throw(velocity, source);
-            m_Rigidbody.velocity = velocity;
+            m_Rigidbody.linearVelocity = velocity;
             m_Rigidbody.angularVelocity = m_AngularVelocity;
         }
     }
